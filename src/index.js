@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             //debugger
             allData = data;
 
-            const filteredData = allData.filter((item) => item.year === "2000");
+            const filteredData = allData.filter((item) => item.year === "2000").slice(1);
             barchart(filteredData.map(item => item.medianincome),
                 filteredData.map(item => item.state))
 
@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     yearSelect.addEventListener("change", () => {
             yearDisplayArr[0].innerHTML = yearSelect.value;
-            const filteredData = allData.filter((item) => item.year === yearSelect.value);
-        barchart(filteredData.map(item => item.medianincome),
-            filteredData.map(item => item.state))
+            const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
+            barchart(filteredData.map(item => item.medianincome),
+                filteredData.map(item => item.state))
         }
     );
     
