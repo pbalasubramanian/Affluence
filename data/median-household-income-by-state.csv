@@ -1,0 +1,1635 @@
+year,state,medianincome,se,footnote
+2014,United States,53657,392,none
+2014,Alabama,42278,1529,none
+2014,Alaska,67629,3153,none
+2014,Arizona,49254,2304,none
+2014,Arkansas,44922,2546,none
+2014,California,60487,894,none
+2014,Colorado,60940,2414,none
+2014,Connecticut,70161,2665,none
+2014,Delaware,57522,2970,none
+2014,D.C.,68277,4402,none
+2014,Florida,46140,950,none
+2014,Georgia,49555,2009,none
+2014,Hawaii,71223,2676,none
+2014,Idaho,53438,2572,none
+2014,Illinois,54916,1625,none
+2014,Indiana,48060,1943,none
+2014,Iowa,57810,3425,none
+2014,Kansas,53444,2863,none
+2014,Kentucky,42786,1580,none
+2014,Louisiana,42406,1862,none
+2014,Maine,51710,2171,none
+2014,Maryland,76165,4272,none
+2014,Massachusetts,63151,2662,none
+2014,Michigan,52005,1199,none
+2014,Minnesota,67244,3207,none
+2014,Mississippi,35521,1294,none
+2014,Missouri,56630,3030,none
+2014,Montana,51102,1778,none
+2014,Nebraska,56870,2254,none
+2014,Nevada,49875,1836,none
+2014,New Hampshire,73397,3253,none
+2014,New Jersey,65243,2693,none
+2014,New Mexico,46686,3312,none
+2014,New York,54310,1781,none
+2014,North Carolina,46784,1710,none
+2014,North Dakota,60730,3138,none
+2014,Ohio,49644,1393,none
+2014,Oklahoma,47199,2775,none
+2014,Oregon,58875,2998,none
+2014,Pennsylvania,55173,2266,none
+2014,Rhode Island,58633,4001,none
+2014,South Carolina,44929,2244,none
+2014,South Dakota,53053,3542,none
+2014,Tennessee,43716,2326,none
+2014,Texas,53875,1344,none
+2014,Utah,63383,3231,none
+2014,Vermont,60708,3098,none
+2014,Virginia,66155,2946,none
+2014,Washington,59068,2195,none
+2014,West Virginia,39552,2195,none
+2014,Wisconsin,58080,2154,none
+2013,United States,54462,665,none
+2013,Alabama,48094,5601,none
+2013,Alaska,73658,5535,none
+2013,Arizona,53472,4436,none
+2013,Arkansas,40020,2441,none
+2013,California,61789,1841,none
+2013,Colorado,69023,4197,none
+2013,Connecticut,70425,3291,none
+2013,Delaware,54976,4421,none
+2013,D.C.,61040,5619,none
+2013,Florida,49326,2861,none
+2013,Georgia,47761,4305,none
+2013,Hawaii,65286,3982,none
+2013,Idaho,49260,5574,none
+2013,Illinois,54820,3341,none
+2013,Indiana,50264,4582,none
+2013,Iowa,61140,6234,none
+2013,Kansas,48603,4570,none
+2013,Kentucky,45613,3988,none
+2013,Louisiana,47185,2585,none
+2013,Maine,55856,3926,none
+2013,Maryland,70488,3019,none
+2013,Massachusetts,63552,5390,none
+2013,Michigan,57493,1613,none
+2013,Minnesota,65377,4057,none
+2013,Mississippi,32867,2775,none
+2013,Missouri,47061,4202,none
+2013,Montana,43908,6043,none
+2013,Nebraska,58566,4286,none
+2013,Nevada,52694,3230,none
+2013,New Hampshire,70230,4032,none
+2013,New Jersey,64797,4537,none
+2013,New Mexico,40823,4480,none
+2013,New York,50784,2304,none
+2013,North Carolina,47095,3023,none
+2013,North Dakota,60120,3507,none
+2013,Ohio,51578,2488,none
+2013,Oklahoma,46917,3498,none
+2013,Oregon,49801,2934,none
+2013,Pennsylvania,56059,2984,none
+2013,Rhode Island,57245,3915,none
+2013,South Carolina,44276,2427,none
+2013,South Dakota,54287,2965,none
+2013,Tennessee,44071,3491,none
+2013,Texas,52247,1382,none
+2013,Utah,62046,1578,none
+2013,Vermont,66585,4079,none
+2013,Virginia,66986,2785,none
+2013,Washington,64968,3441,none
+2013,West Virginia,43774,3511,none
+2013,Wisconsin,52572,2672,none
+2012,United States,52605,216,none
+2012,Alabama,44817,2608,none
+2012,Alaska,65629,2927,none
+2012,Arizona,48508,3013,none
+2012,Arkansas,40233,2900,none
+2012,California,58795,1277,none
+2012,Colorado,59037,2792,none
+2012,Connecticut,66247,2942,none
+2012,Delaware,50496,2038,none
+2012,D.C.,67277,3785,none
+2012,Florida,47505,1145,none
+2012,Georgia,49619,1551,none
+2012,Hawaii,58014,2325,none
+2012,Idaho,49414,3272,none
+2012,Illinois,53349,1369,none
+2012,Indiana,47595,1843,none
+2012,Iowa,55106,2205,none
+2012,Kansas,51560,1868,none
+2012,Kentucky,42365,1959,none
+2012,Louisiana,40302,1661,none
+2012,Maine,50688,2317,none
+2012,Maryland,74072,1909,none
+2012,Massachusetts,65638,3890,none
+2012,Michigan,51572,1562,none
+2012,Minnesota,63719,1381,none
+2012,Mississippi,37782,1594,none
+2012,Missouri,51313,2106,none
+2012,Montana,46492,2645,none
+2012,Nebraska,53821,2783,none
+2012,Nevada,48806,2612,none
+2012,New Hampshire,69930,2293,none
+2012,New Jersey,68768,2021,none
+2012,New Mexico,44776,2338,none
+2012,New York,49164,1634,none
+2012,North Carolina,42847,1334,none
+2012,North Dakota,57502,2189,none
+2012,Ohio,45756,1777,none
+2012,Oklahoma,49914,2909,none
+2012,Oregon,53387,2403,none
+2012,Pennsylvania,53520,1449,none
+2012,Rhode Island,57810,2641,none
+2012,South Carolina,45783,2224,none
+2012,South Dakota,50953,1758,none
+2012,Tennessee,44333,2482,none
+2012,Texas,53542,980,none
+2012,Utah,60157,3036,none
+2012,Vermont,57312,3124,none
+2012,Virginia,66644,2233,none
+2012,Washington,64123,2319,none
+2012,West Virginia,44909,2860,none
+2012,Wisconsin,54731,1762,none
+2011,United States,52690,264,none
+2011,Alabama,44833,2127,none
+2011,Alaska,60456,3905,none
+2011,Arizona,51182,2552,none
+2011,Arkansas,43477,1946,none
+2011,California,56177,1451,none
+2011,Colorado,61717,2687,none
+2011,Connecticut,68860,3173,none
+2011,Delaware,57539,1837,none
+2011,D.C.,58161,2220,none
+2011,Florida,47480,1198,none
+2011,Georgia,48394,2614,none
+2011,Hawaii,62157,2664,none
+2011,Idaho,49958,3672,none
+2011,Illinois,53304,1446,none
+2011,Indiana,46786,2431,none
+2011,Iowa,52864,2078,none
+2011,Kansas,48577,2053,none
+2011,Kentucky,41955,1944,none
+2011,Louisiana,42799,2031,none
+2011,Maine,52310,2087,none
+2011,Maryland,72503,2237,none
+2011,Massachusetts,66647,3396,none
+2011,Michigan,51453,1941,none
+2011,Minnesota,60865,2505,none
+2011,Mississippi,43254,2491,none
+2011,Missouri,48185,2271,none
+2011,Montana,42398,2143,none
+2011,Nebraska,58545,2835,none
+2011,Nevada,49520,2810,none
+2011,New Hampshire,69349,1739,none
+2011,New Jersey,65621,3187,none
+2011,New Mexico,44193,2267,none
+2011,New York,53303,1059,none
+2011,North Carolina,47587,1642,none
+2011,North Dakota,59329,3116,none
+2011,Ohio,46999,1263,none
+2011,Oklahoma,51007,2521,none
+2011,Oregon,54240,1692,none
+2011,Pennsylvania,52538,1783,none
+2011,Rhode Island,51615,2403,none
+2011,South Carolina,42195,1792,none
+2011,South Dakota,49710,2260,none
+2011,Tennessee,44506,2691,none
+2011,Texas,51630,1214,none
+2011,Utah,58415,1746,none
+2011,Vermont,54593,2113,none
+2011,Virginia,65914,1866,none
+2011,Washington,59844,2087,none
+2011,West Virginia,44023,1859,none
+2011,Wisconsin,54800,2176,none
+2010,United States,53507,353,none
+2010,Alabama,44447,2602,none
+2010,Alaska,62814,2595,none
+2010,Arizona,50922,2418,none
+2010,Arkansas,41900,2675,none
+2010,California,58943,1283,none
+2010,Colorado,65404,2694,none
+2010,Connecticut,71665,2275,none
+2010,Delaware,59955,2449,none
+2010,D.C.,61816,3619,none
+2010,Florida,47850,1676,none
+2010,Georgia,47905,1979,none
+2010,Hawaii,64651,2966,none
+2010,Idaho,51090,2029,none
+2010,Illinois,55083,1600,none
+2010,Indiana,50101,2794,none
+2010,Iowa,53224,1457,none
+2010,Kansas,50008,1972,none
+2010,Kentucky,44633,3065,none
+2010,Louisiana,42675,3527,none
+2010,Maine,52046,1832,none
+2010,Maryland,69713,2494,none
+2010,Massachusetts,66165,2381,none
+2010,Michigan,50249,1886,none
+2010,Minnesota,56814,1744,none
+2010,Mississippi,41436,3073,none
+2010,Missouri,49750,2343,none
+2010,Montana,44824,2005,none
+2010,Nebraska,57012,1912,none
+2010,Nevada,55596,2088,none
+2010,New Hampshire,72354,1793,none
+2010,New Jersey,68374,2653,none
+2010,New Mexico,49010,3275,none
+2010,New York,54055,1433,none
+2010,North Carolina,47593,2088,none
+2010,North Dakota,55385,2510,none
+2010,Ohio,49825,1621,none
+2010,Oklahoma,46804,2251,none
+2010,Oregon,54946,1635,none
+2010,Pennsylvania,52462,1637,none
+2010,Rhode Island,56055,1879,none
+2010,South Carolina,45278,1585,none
+2010,South Dakota,49246,2220,none
+2010,Tennessee,41905,1364,none
+2010,Texas,51324,1259,none
+2010,Utah,61569,2131,none
+2010,Vermont,60730,2440,none
+2010,Virginia,65550,2134,none
+2010,Washington,60985,2236,none
+2010,West Virginia,46450,2734,none
+2010,Wisconsin,54674,1558,none
+2009,United States,54925,235,none
+2009,Alabama,44115,997,none
+2009,Alaska,67975,1932,none
+2009,Arizona,50470,1369,none
+2009,Arkansas,40317,1003,none
+2009,California,61940,683,none
+2009,Colorado,61715,1760,none
+2009,Connecticut,71558,2547,none
+2009,Delaware,57504,1965,none
+2009,D.C.,58637,2304,none
+2009,Florida,50350,779,none
+2009,Georgia,47823,1386,none
+2009,Hawaii,61405,2232,none
+2009,Idaho,51616,1395,none
+2009,Illinois,58338,1038,none
+2009,Indiana,48887,1197,none
+2009,Iowa,55967,1694,none
+2009,Kansas,49342,1973,none
+2009,Kentucky,47077,1449,none
+2009,Louisiana,50132,2001,none
+2009,Maine,52415,1919,none
+2009,Maryland,70825,1847,none
+2009,Massachusetts,65514,1930,none
+2009,Michigan,50751,1107,none
+2009,Minnesota,61891,1365,none
+2009,Mississippi,38706,1439,none
+2009,Missouri,53813,1760,none
+2009,Montana,44619,1106,none
+2009,Nebraska,54724,1828,none
+2009,Nevada,56754,1210,none
+2009,New Hampshire,70764,2048,none
+2009,New Jersey,71477,2117,none
+2009,New Mexico,48045,1649,none
+2009,New York,55410,661,none
+2009,North Carolina,46240,636,none
+2009,North Dakota,55254,1918,none
+2009,Ohio,50624,691,none
+2009,Oklahoma,50623,1257,none
+2009,Oregon,54176,1814,none
+2009,Pennsylvania,53154,1034,none
+2009,Rhode Island,56974,1596,none
+2009,South Carolina,45352,1228,none
+2009,South Dakota,50566,1422,none
+2009,Tennessee,44708,1090,none
+2009,Texas,52385,820,none
+2009,Utah,64541,1752,none
+2009,Vermont,57729,1587,none
+2009,Virginia,66758,1316,none
+2009,Washington,66638,1323,none
+2009,West Virginia,44678,1007,none
+2009,Wisconsin,56536,889,none
+2008,United States,55313,151,none
+2008,Alabama,48905,1824,none
+2008,Alaska,70362,2531,none
+2008,Arizona,51586,1237,none
+2008,Arkansas,43528,1313,none
+2008,California,62692,912,none
+2008,Colorado,67012,2087,none
+2008,Connecticut,71124,2970,none
+2008,Delaware,55751,1526,none
+2008,D.C.,61126,1939,none
+2008,Florida,49324,943,none
+2008,Georgia,50831,1280,none
+2008,Hawaii,67648,1628,none
+2008,Idaho,52143,1848,none
+2008,Illinois,58558,1457,none
+2008,Indiana,51153,1303,none
+2008,Iowa,55136,1422,none
+2008,Kansas,52645,1550,none
+2008,Kentucky,45246,893,none
+2008,Louisiana,43503,1634,none
+2008,Maine,51931,1579,none
+2008,Maryland,70056,1945,none
+2008,Massachusetts,66327,1841,none
+2008,Michigan,54746,1269,none
+2008,Minnesota,60395,1569,none
+2008,Mississippi,40076,913,none
+2008,Missouri,50623,1260,none
+2008,Montana,47172,1940,none
+2008,Nebraska,55780,1379,none
+2008,Nevada,60196,2923,none
+2008,New Hampshire,72766,3523,none
+2008,New Jersey,71810,2526,none
+2008,New Mexico,46295,1519,none
+2008,New York,55486,750,none
+2008,North Carolina,47205,930,none
+2008,North Dakota,54574,1306,none
+2008,Ohio,51608,932,none
+2008,Oklahoma,50703,1024,none
+2008,Oregon,56878,1511,none
+2008,Pennsylvania,56521,648,none
+2008,Rhode Island,58543,2638,none
+2008,South Carolina,46353,1233,none
+2008,South Dakota,56739,1094,none
+2008,Tennessee,43656,1332,none
+2008,Texas,51120,741,none
+2008,Utah,68765,1678,none
+2008,Vermont,55756,1080,none
+2008,Virginia,68158,1591,none
+2008,Washington,62271,2222,none
+2008,West Virginia,41778,1544,none
+2008,Wisconsin,56299,937,none
+2007,United States,57357,160,none
+2007,Alabama,48199,1621,none
+2007,Alaska,71927,1808,none
+2007,Arizona,53911,1776,none
+2007,Arkansas,46581,1539,none
+2007,California,63638,706,none
+2007,Colorado,69812,1158,none
+2007,Connecticut,73238,2340,none
+2007,Delaware,62331,2465,none
+2007,D.C.,57985,1253,none
+2007,Florida,52289,651,none
+2007,Georgia,55540,1231,none
+2007,Hawaii,73102,2426,none
+2007,Idaho,56160,1474,none
+2007,Illinois,59953,1085,none
+2007,Indiana,54183,1433,none
+2007,Iowa,55844,1657,none
+2007,Kansas,55375,2061,none
+2007,Kentucky,45047,1383,none
+2007,Louisiana,47172,1070,none
+2007,Maine,54687,1596,none
+2007,Maryland,74938,1897,none
+2007,Massachusetts,66755,2547,none
+2007,Michigan,56372,911,none
+2007,Minnesota,66292,2156,none
+2007,Mississippi,42566,1086,none
+2007,Missouri,52530,1261,none
+2007,Montana,49846,1940,none
+2007,Nebraska,56148,1575,none
+2007,Nevada,61725,1478,none
+2007,New Hampshire,77160,2108,none
+2007,New Jersey,69090,1665,none
+2007,New Mexico,50647,1683,none
+2007,New York,55885,1048,none
+2007,North Carolina,49684,1224,none
+2007,North Dakota,53900,1462,none
+2007,Ohio,56062,1239,none
+2007,Oklahoma,49345,1659,none
+2007,Oregon,57361,1549,none
+2007,Pennsylvania,55307,1064,none
+2007,Rhode Island,61898,2111,none
+2007,South Carolina,50484,1773,none
+2007,South Dakota,53001,1028,none
+2007,Tennessee,47037,1274,none
+2007,Texas,52584,799,none
+2007,Utah,61121,1391,none
+2007,Vermont,54111,1596,none
+2007,Virginia,67552,1559,none
+2007,Washington,66317,1982,none
+2007,West Virginia,48061,1129,none
+2007,Wisconsin,58549,1187,none
+2006,United States,56598,243,none
+2006,Alabama,44563,1191,none
+2006,Alaska,66246,1755,none
+2006,Arizona,54785,1463,none
+2006,Arkansas,43513,901,none
+2006,California,64956,816,none
+2006,Colorado,65400,1789,none
+2006,Connecticut,73275,2539,none
+2006,Delaware,61573,2031,none
+2006,D.C.,56922,1971,none
+2006,Florida,53633,739,none
+2006,Georgia,57940,1421,none
+2006,Hawaii,71004,1845,none
+2006,Idaho,54264,1541,none
+2006,Illinois,57150,1370,none
+2006,Indiana,53317,1451,none
+2006,Iowa,56510,1751,none
+2006,Kansas,53487,1470,none
+2006,Kentucky,46364,1234,none
+2006,Louisiana,42844,1673,none
+2006,Maine,53593,2110,none
+2006,Maryland,74759,1880,none
+2006,Massachusetts,64969,2441,none
+2006,Michigan,57122,1134,none
+2006,Minnesota,66003,1430,none
+2006,Mississippi,40784,1859,none
+2006,Missouri,52345,1646,none
+2006,Montana,48266,818,none
+2006,Nebraska,56532,1750,none
+2006,Nevada,61390,1470,none
+2006,New Hampshire,72766,1737,none
+2006,New Jersey,79915,2324,none
+2006,New Mexico,47001,1476,none
+2006,New York,56623,1161,none
+2006,North Carolina,46730,957,none
+2006,North Dakota,48198,1650,none
+2006,Ohio,53896,743,none
+2006,Oklahoma,45604,1875,none
+2006,Oregon,55295,1639,none
+2006,Pennsylvania,56922,1020,none
+2006,Rhode Island,63097,2141,none
+2006,South Carolina,46519,1582,none
+2006,South Dakota,53341,1927,none
+2006,Tennessee,47782,887,none
+2006,Texas,50851,972,none
+2006,Utah,64145,1962,none
+2006,Vermont,61036,1487,none
+2006,Virginia,67070,1869,none
+2006,Washington,64256,1461,none
+2006,West Virginia,45112,1425,none
+2006,Wisconsin,60697,1346,none
+2005,United States,56160,188,none
+2005,Alabama,45036,1473,none
+2005,Alaska,67755,1614,none
+2005,Arizona,54849,1541,none
+2005,Arkansas,44439,1587,none
+2005,California,62741,558,none
+2005,Colorado,61158,1560,none
+2005,Connecticut,68899,1980,none
+2005,Delaware,62111,1304,none
+2005,D.C.,54544,2627,none
+2005,Florida,52115,982,none
+2005,Georgia,55675,1016,none
+2005,Hawaii,72234,1469,none
+2005,Idaho,53553,1520,none
+2005,Illinois,58671,1195,none
+2005,Indiana,51445,1333,none
+2005,Iowa,56371,1623,none
+2005,Kansas,50948,1194,none
+2005,Kentucky,44489,1089,none
+2005,Louisiana,45140,1572,none
+2005,Maine,53246,1737,none
+2005,Maryland,73357,1791,none
+2005,Massachusetts,67908,2126,none
+2005,Michigan,55683,1109,none
+2005,Minnesota,65723,1508,none
+2005,Mississippi,39853,1566,none
+2005,Missouri,52111,1199,none
+2005,Montana,45233,1407,none
+2005,Nebraska,58096,1754,none
+2005,Nevada,58442,2037,none
+2005,New Hampshire,69080,2456,none
+2005,New Jersey,76819,2736,none
+2005,New Mexico,47214,2061,none
+2005,New York,57190,1003,none
+2005,North Carolina,50983,1169,none
+2005,North Dakota,51148,1480,none
+2005,Ohio,53586,1268,none
+2005,Oklahoma,45636,1757,none
+2005,Oregon,53533,1686,none
+2005,Pennsylvania,56128,903,none
+2005,Rhode Island,59988,1765,none
+2005,South Carolina,48770,1460,none
+2005,South Dakota,52311,1660,none
+2005,Tennessee,47771,1444,none
+2005,Texas,50215,509,none
+2005,Utah,66448,1580,none
+2005,Vermont,61467,1587,none
+2005,Virginia,62934,1437,none
+2005,Washington,61397,1267,none
+2005,West Virginia,44181,1304,none
+2005,Wisconsin,54128,1428,none
+2004,United States,55565,246,none
+2004,Alabama,45908,1633,none
+2004,Alaska,69012,2596,none
+2004,Arizona,54954,1433,none
+2004,Arkansas,43847,1246,none
+2004,California,61692,827,none
+2004,Colorado,63777,1993,none
+2004,Connecticut,69059,2065,none
+2004,Delaware,60221,1781,none
+2004,D.C.,54459,2336,none
+2004,Florida,50804,792,none
+2004,Georgia,51367,775,none
+2004,Hawaii,70490,2118,none
+2004,Idaho,55595,1738,none
+2004,Illinois,57750,1031,none
+2004,Indiana,53052,1443,none
+2004,Iowa,54383,1906,none
+2004,Kansas,51469,2192,none
+2004,Kentucky,44631,1527,none
+2004,Louisiana,45658,1558,none
+2004,Maine,51799,1533,none
+2004,Maryland,71569,2121,none
+2004,Massachusetts,65197,2089,none
+2004,Michigan,52961,1075,none
+2004,Minnesota,70317,1341,none
+2004,Mississippi,43560,1419,none
+2004,Missouri,52812,1345,none
+2004,Montana,42558,889,none
+2004,Nebraska,54878,1669,none
+2004,Nevada,59162,1732,none
+2004,New Hampshire,71208,1659,none
+2004,New Jersey,69278,1608,none
+2004,New Mexico,49584,1985,none
+2004,New York,55960,993,none
+2004,North Carolina,50432,1018,none
+2004,North Dakota,49156,1568,none
+2004,Ohio,53962,1225,none
+2004,Oklahoma,49650,1406,none
+2004,Oregon,51379,1317,none
+2004,Pennsylvania,55280,1302,none
+2004,Rhode Island,60079,2472,none
+2004,South Carolina,48493,1280,none
+2004,South Dakota,51521,1247,none
+2004,Tennessee,47717,1325,none
+2004,Texas,51884,688,none
+2004,Utah,63758,1162,none
+2004,Vermont,59319,1592,none
+2004,Virginia,64097,1399,none
+2004,Washington,62569,1339,none
+2004,West Virginia,41827,1470,none
+2004,Wisconsin,57317,1676,none
+2003,United States,55759,242,none
+2003,Alabama,47954,2034,none
+2003,Alaska,66724,1263,none
+2003,Arizona,52989,1830,none
+2003,Arkansas,41193,999,none
+2003,California,63459,1054,none
+2003,Colorado,64283,1491,none
+2003,Connecticut,70751,2009,none
+2003,Delaware,63097,1774,none
+2003,D.C.,57980,1825,none
+2003,Florida,50165,977,none
+2003,Georgia,54626,1260,none
+2003,Hawaii,66720,1715,none
+2003,Idaho,54541,1264,none
+2003,Illinois,58121,1380,none
+2003,Indiana,54609,1234,none
+2003,Iowa,53269,1138,none
+2003,Kansas,56935,1707,none
+2003,Kentucky,47544,1103,none
+2003,Louisiana,43130,1420,none
+2003,Maine,47772,1216,none
+2003,Maryland,67338,1574,none
+2003,Massachusetts,65589,1227,none
+2003,Michigan,57952,1223,none
+2003,Minnesota,67993,1581,none
+2003,Mississippi,42127,1433,none
+2003,Missouri,56330,1126,none
+2003,Montana,43904,1373,none
+2003,Nebraska,56603,1681,none
+2003,Nevada,58161,2000,none
+2003,New Hampshire,71526,1679,none
+2003,New Jersey,72141,1317,none
+2003,New Mexico,45187,1470,none
+2003,New York,55076,1122,none
+2003,North Carolina,47985,1211,none
+2003,North Dakota,52016,1097,none
+2003,Ohio,56019,1197,none
+2003,Oklahoma,46213,1005,none
+2003,Oregon,53596,1242,none
+2003,Pennsylvania,55263,1001,none
+2003,Rhode Island,57552,1608,none
+2003,South Carolina,49530,1443,none
+2003,South Dakota,50873,1292,none
+2003,Tennessee,48299,1520,none
+2003,Texas,50549,981,none
+2003,Utah,63427,1161,none
+2003,Vermont,55685,1258,none
+2003,Virginia,70516,2012,none
+2003,Washington,61152,1796,none
+2003,West Virginia,42172,1278,none
+2003,Wisconsin,59557,1259,none
+2002,United States,55807,183,none
+2002,Alabama,49483,1398,none
+2002,Alaska,69447,1412,none
+2002,Arizona,52287,1320,none
+2002,Arkansas,42619,1024,none
+2002,California,62424,1008,none
+2002,Colorado,63551,1927,none
+2002,Connecticut,70253,1803,none
+2002,Delaware,65336,2217,none
+2002,D.C.,51413,1309,none
+2002,Florida,50037,1090,none
+2002,Georgia,56505,1457,none
+2002,Hawaii,62247,1804,none
+2002,Idaho,49630,1475,none
+2002,Illinois,56203,1126,none
+2002,Indiana,54015,984,none
+2002,Iowa,54018,1516,none
+2002,Kansas,56084,1378,none
+2002,Kentucky,48376,1150,none
+2002,Louisiana,44752,1655,none
+2002,Maine,48496,1113,none
+2002,Maryland,74228,2016,none
+2002,Massachusetts,65606,1517,none
+2002,Michigan,56210,1467,none
+2002,Minnesota,71879,1574,none
+2002,Mississippi,40639,1008,none
+2002,Missouri,56290,1413,none
+2002,Montana,45840,1595,none
+2002,Nebraska,56316,1366,none
+2002,Nevada,59162,1528,none
+2002,New Hampshire,72799,1696,none
+2002,New Jersey,71808,2112,none
+2002,New Mexico,46659,1396,none
+2002,New York,55224,763,none
+2002,North Carolina,48051,942,none
+2002,North Dakota,47637,1084,none
+2002,Ohio,56169,1022,none
+2002,Oklahoma,47976,807,none
+2002,Oregon,55008,1125,none
+2002,Pennsylvania,55924,1046,none
+2002,Rhode Island,55818,1151,none
+2002,South Carolina,49758,1611,none
+2002,South Dakota,49838,1254,none
+2002,Tennessee,48729,1462,none
+2002,Texas,52833,741,none
+2002,Utah,62982,1508,none
+2002,Vermont,56584,1092,none
+2002,Virginia,65311,1698,none
+2002,Washington,59458,1269,none
+2002,West Virginia,38634,920,none
+2002,Wisconsin,60405,1245,none
+2001,United States,56466,172,none
+2001,Alabama,47015,1345,none
+2001,Alaska,76705,2690,none
+2001,Arizona,57103,1927,none
+2001,Arkansas,44580,1530,none
+2001,California,63198,972,none
+2001,Colorado,66053,1591,none
+2001,Connecticut,71334,1658,none
+2001,Delaware,66327,1963,none
+2001,D.C.,55050,1368,none
+2001,Florida,48701,558,none
+2001,Georgia,56932,1435,none
+2001,Hawaii,63434,1679,none
+2001,Idaho,51135,1292,none
+2001,Illinois,61739,1175,none
+2001,Indiana,53994,1268,none
+2001,Iowa,54792,1515,none
+2001,Kansas,55379,1491,none
+2001,Kentucky,51397,1349,none
+2001,Louisiana,44557,1598,none
+2001,Maine,48957,1273,none
+2001,Maryland,71579,2209,none
+2001,Massachusetts,69872,2030,none
+2001,Michigan,60236,1161,none
+2001,Minnesota,70444,1516,none
+2001,Mississippi,40331,1586,none
+2001,Missouri,55278,1610,none
+2001,Montana,42958,986,none
+2001,Nebraska,58316,1492,none
+2001,Nevada,60712,1511,none
+2001,New Hampshire,68639,961,none
+2001,New Jersey,69227,1248,none
+2001,New Mexico,44293,1655,none
+2001,New York,56314,802,none
+2001,North Carolina,51029,1272,none
+2001,North Dakota,47862,1075,none
+2001,Ohio,55874,884,none
+2001,Oklahoma,47616,923,none
+2001,Oregon,55189,1006,none
+2001,Pennsylvania,58166,967,none
+2001,Rhode Island,61140,1534,none
+2001,South Carolina,50460,1368,none
+2001,South Dakota,53047,1145,none
+2001,Tennessee,47848,1058,none
+2001,Texas,54637,685,none
+2001,Utah,63305,2141,none
+2001,Vermont,54549,1262,none
+2001,Virginia,67181,1535,none
+2001,Washington,56817,1690,none
+2001,West Virginia,39678,901,none
+2001,Wisconsin,60636,1502,none
+2000,United States,57724,181,none
+2000,Alabama,48697,1474,none
+2000,Alaska,72649,1593,none
+2000,Arizona,54690,1663,none
+2000,Arkansas,40825,1061,none
+2000,California,64358,943,none
+2000,Colorado,66316,1701,none
+2000,Connecticut,68972,1865,none
+2000,Delaware,69237,2073,none
+2000,D.C.,56668,1474,none
+2000,Florida,53415,1021,none
+2000,Georgia,57601,1142,none
+2000,Hawaii,70860,1640,none
+2000,Idaho,51704,1639,none
+2000,Illinois,63324,1328,none
+2000,Indiana,56177,933,none
+2000,Iowa,56350,1115,none
+2000,Kansas,56444,1606,none
+2000,Kentucky,49854,1166,none
+2000,Louisiana,42228,1138,none
+2000,Maine,51230,1173,none
+2000,Maryland,74969,1925,none
+2000,Massachusetts,64272,1865,none
+2000,Michigan,62566,1505,none
+2000,Minnesota,74579,2341,none
+2000,Mississippi,47151,1861,none
+2000,Missouri,61995,1632,none
+2000,Montana,45059,1376,none
+2000,Nebraska,57394,1399,none
+2000,Nevada,62904,1390,none
+2000,New Hampshire,70008,1709,none
+2000,New Jersey,69292,1362,none
+2000,New Mexico,48242,1716,none
+2000,New York,56011,799,none
+2000,North Carolina,52675,1108,none
+2000,North Dakota,49484,1464,none
+2000,Ohio,59060,1006,none
+2000,Oklahoma,44584,975,none
+2000,Oregon,58424,1287,none
+2000,Pennsylvania,57979,968,none
+2000,Rhode Island,58008,1399,none
+2000,South Carolina,51648,1288,none
+2000,South Dakota,50142,944,none
+2000,Tennessee,46872,1278,none
+2000,Texas,53076,1079,none
+2000,Utah,65367,1431,none
+2000,Vermont,54430,1266,none
+2000,Virginia,64835,1464,none
+2000,Washington,58459,1665,none
+2000,West Virginia,40431,887,none
+2000,Wisconsin,61983,1309,none
+1999,United States,57843,270,none
+1999,Alabama,51525,1690,none
+1999,Alaska,73051,3164,none
+1999,Arizona,52582,1610,none
+1999,Arkansas,42188,1458,none
+1999,California,62011,999,none
+1999,Colorado,68476,2108,none
+1999,Connecticut,71909,3263,none
+1999,Delaware,66274,3242,none
+1999,D.C.,54963,2273,none
+1999,Florida,50928,891,none
+1999,Georgia,56036,1926,none
+1999,Hawaii,63255,2604,none
+1999,Idaho,50884,2008,none
+1999,Illinois,65850,1461,none
+1999,Indiana,58044,2443,none
+1999,Iowa,58414,1606,none
+1999,Kansas,53084,2954,none
+1999,Kentucky,47953,2109,none
+1999,Louisiana,46412,1768,none
+1999,Maine,55236,1875,none
+1999,Maryland,74201,3151,none
+1999,Massachusetts,62546,2875,none
+1999,Michigan,65508,1458,none
+1999,Minnesota,66857,2170,none
+1999,Mississippi,46162,2001,none
+1999,Missouri,58819,1693,none
+1999,Montana,44115,1373,none
+1999,Nebraska,54900,1942,none
+1999,Nevada,58930,2507,none
+1999,New Hampshire,65459,2774,none
+1999,New Jersey,70689,1997,none
+1999,New Mexico,46298,2482,none
+1999,New York,56838,1249,none
+1999,North Carolina,52950,1364,none
+1999,North Dakota,46425,1966,none
+1999,Ohio,56127,1406,none
+1999,Oklahoma,46453,2119,none
+1999,Oregon,57733,1780,none
+1999,Pennsylvania,53667,1622,none
+1999,Rhode Island,60718,2814,none
+1999,South Carolina,51825,2456,none
+1999,South Dakota,50923,1342,none
+1999,Tennessee,51910,1862,none
+1999,Texas,54989,1450,none
+1999,Utah,65452,2295,none
+1999,Vermont,59105,2000,none
+1999,Virginia,64945,2516,none
+1999,Washington,64632,2956,none
+1999,West Virginia,41641,1633,none
+1999,Wisconsin,64908,2669,none
+1998,United States,56445,334,none
+1998,Alabama,52643,1897,none
+1998,Alaska,73584,3083,none
+1998,Arizona,53839,1822,none
+1998,Arkansas,40158,1684,none
+1998,California,59419,838,none
+1998,Colorado,67642,1576,none
+1998,Connecticut,67510,3960,none
+1998,Delaware,60180,2545,none
+1998,D.C.,48531,1903,none
+1998,Florida,50673,1113,none
+1998,Georgia,56126,1711,none
+1998,Hawaii,59264,3439,none
+1998,Idaho,53244,1582,none
+1998,Illinois,62677,1791,none
+1998,Indiana,57673,2307,none
+1998,Iowa,53736,1745,none
+1998,Kansas,53289,2347,none
+1998,Kentucky,52623,2193,none
+1998,Louisiana,46066,2410,none
+1998,Maine,51735,1523,none
+1998,Maryland,72603,3137,none
+1998,Massachusetts,61467,2847,none
+1998,Michigan,60707,1331,none
+1998,Minnesota,69569,3070,none
+1998,Mississippi,42270,1681,none
+1998,Missouri,58355,2712,none
+1998,Montana,45837,1645,none
+1998,Nebraska,52857,2249,none
+1998,Nevada,57709,1778,none
+1998,New Hampshire,65260,2709,none
+1998,New Jersey,72327,2084,none
+1998,New Mexico,45787,2029,none
+1998,New York,54281,1128,none
+1998,North Carolina,52022,1484,none
+1998,North Dakota,43989,1711,none
+1998,Ohio,56503,2288,none
+1998,Oklahoma,48958,1788,none
+1998,Oregon,56709,2797,none
+1998,Pennsylvania,56634,1568,none
+1998,Rhode Island,59059,3857,none
+1998,South Carolina,48290,1902,none
+1998,South Dakota,47592,1470,none
+1998,Tennessee,49486,1897,none
+1998,Texas,51942,961,none
+1998,Utah,64304,1996,none
+1998,Vermont,57152,2309,none
+1998,Virginia,62932,3186,none
+1998,Washington,68836,2002,none
+1998,West Virginia,38763,1132,none
+1998,Wisconsin,59990,1845,none
+1997,United States,54443,252,none
+1997,Alabama,46990,2364,none
+1997,Alaska,70610,1851,none
+1997,Arizona,48168,1908,none
+1997,Arkansas,38490,1698,none
+1997,California,58399,1271,none
+1997,Colorado,63606,2860,none
+1997,Connecticut,64712,2926,none
+1997,Delaware,63312,3034,none
+1997,D.C.,46874,1448,none
+1997,Florida,47749,858,none
+1997,Georgia,53940,1348,none
+1997,Hawaii,60224,2058,none
+1997,Idaho,49145,1970,none
+1997,Illinois,60737,1151,none
+1997,Indiana,57215,1740,none
+1997,Iowa,49703,1886,none
+1997,Kansas,53657,2375,none
+1997,Kentucky,49216,2441,none
+1997,Louisiana,48933,2282,none
+1997,Maine,48215,1914,none
+1997,Maryland,68685,2172,none
+1997,Massachusetts,61826,2035,none
+1997,Michigan,56999,1630,none
+1997,Minnesota,62622,2222,none
+1997,Mississippi,41929,2039,none
+1997,Missouri,53778,3031,none
+1997,Montana,42978,1685,none
+1997,Nebraska,51040,2248,none
+1997,Nevada,57163,2319,none
+1997,New Hampshire,60318,2360,none
+1997,New Jersey,70650,2095,none
+1997,New Mexico,44264,1702,none
+1997,New York,52667,933,none
+1997,North Carolina,52729,1349,none
+1997,North Dakota,46581,2002,none
+1997,Ohio,53162,1315,none
+1997,Oklahoma,46125,1508,none
+1997,Oregon,54799,2631,none
+1997,Pennsylvania,55196,1418,none
+1997,Rhode Island,51195,3288,none
+1997,South Carolina,50407,2367,none
+1997,South Dakota,43687,1685,none
+1997,Tennessee,45073,1998,none
+1997,Texas,51604,1295,none
+1997,Utah,62932,2626,none
+1997,Vermont,51571,2541,none
+1997,Virginia,63200,2791,none
+1997,Washington,65561,2523,none
+1997,West Virginia,40441,1935,none
+1997,Wisconsin,58254,1692,none
+1996,United States,53345,269,none
+1996,Alabama,45545,1891,none
+1996,Alaska,79328,2866,none
+1996,Arizona,47551,1915,none
+1996,Arkansas,40767,1470,none
+1996,California,58335,1229,none
+1996,Colorado,61549,1998,none
+1996,Connecticut,63306,4640,none
+1996,Delaware,59082,2107,none
+1996,D.C.,48046,2372,none
+1996,Florida,46054,771,none
+1996,Georgia,48842,2504,none
+1996,Hawaii,62784,2845,none
+1996,Idaho,52168,2016,none
+1996,Illinois,59451,1664,none
+1996,Indiana,52827,1951,none
+1996,Iowa,49914,2295,none
+1996,Kansas,48976,2194,none
+1996,Kentucky,48718,2163,none
+1996,Louisiana,45485,1939,none
+1996,Maine,52149,1820,none
+1996,Maryland,66123,3855,none
+1996,Massachusetts,59360,2904,none
+1996,Michigan,58956,1718,none
+1996,Minnesota,61611,1841,none
+1996,Mississippi,40096,1978,none
+1996,Missouri,51501,2274,none
+1996,Montana,43113,2354,none
+1996,Nebraska,51124,2255,none
+1996,Nevada,57927,2427,none
+1996,New Hampshire,59230,2606,none
+1996,New Jersey,71346,1829,none
+1996,New Mexico,37705,1640,none
+1996,New York,53222,1121,none
+1996,North Carolina,53509,1515,none
+1996,North Dakota,47300,1780,none
+1996,Ohio,51208,1598,none
+1996,Oklahoma,41238,1637,none
+1996,Oregon,53345,1915,none
+1996,Pennsylvania,52454,1464,none
+1996,Rhode Island,55591,1557,none
+1996,South Carolina,52102,2112,none
+1996,South Dakota,44378,1508,none
+1996,Tennessee,46278,1634,none
+1996,Texas,49708,1147,none
+1996,Utah,55669,1999,none
+1996,Vermont,48635,1879,none
+1996,Virginia,58935,2193,none
+1996,Washington,55125,2417,none
+1996,West Virginia,37947,1955,none
+1996,Wisconsin,60123,2675,none
+1995,United States,52604,304,none
+1995,Alabama,40123,1954,none
+1995,Alaska,74028,3100,none
+1995,Arizona,47644,2099,none
+1995,Arkansas,39850,1542,none
+1995,California,57132,1116,none
+1995,Colorado,62839,2396,none
+1995,Connecticut,62124,3503,none
+1995,Delaware,53919,2853,none
+1995,D.C.,47466,1825,none
+1995,Florida,45918,945,none
+1995,Georgia,52639,1385,none
+1995,Hawaii,66150,1994,none
+1995,Idaho,50443,1723,none
+1995,Illinois,58771,1351,none
+1995,Indiana,51537,2229,none
+1995,Iowa,54831,1454,none
+1995,Kansas,46838,1422,none
+1995,Kentucky,46018,1774,none
+1995,Louisiana,43145,1683,none
+1995,Maine,52267,1680,none
+1995,Maryland,63356,2512,none
+1995,Massachusetts,59547,2277,none
+1995,Michigan,56232,1534,none
+1995,Minnesota,58558,2853,none
+1995,Mississippi,40967,1587,none
+1995,Missouri,53760,2120,none
+1995,Montana,42849,1706,none
+1995,Nebraska,50833,1783,none
+1995,Nevada,55704,2028,none
+1995,New Hampshire,60469,2402,none
+1995,New Jersey,67806,2161,none
+1995,New Mexico,40123,1698,none
+1995,New York,50986,1105,none
+1995,North Carolina,49367,1371,none
+1995,North Dakota,44905,1879,none
+1995,Ohio,53939,1525,none
+1995,Oklahoma,40617,1358,none
+1995,Oregon,56151,1497,none
+1995,Pennsylvania,53295,1054,none
+1995,Rhode Island,54584,2120,none
+1995,South Carolina,44877,2161,none
+1995,South Dakota,45660,2485,none
+1995,Tennessee,44791,1957,none
+1995,Texas,49459,979,none
+1995,Utah,56315,1419,none
+1995,Vermont,52215,1917,none
+1995,Virginia,55917,2147,none
+1995,Washington,54907,1933,none
+1995,West Virginia,38408,1343,none
+1995,Wisconsin,63223,2035,none
+1994,United States,51006,232,none
+1994,Alabama,42994,2465,none
+1994,Alaska,71721,2362,none
+1994,Arizona,49471,1222,none
+1994,Arkansas,40416,1492,none
+1994,California,55855,979,none
+1994,Colorado,59811,2286,none
+1994,Connecticut,64971,2522,none
+1994,Delaware,56712,1883,none
+1994,D.C.,47611,1750,none
+1994,Florida,46311,999,none
+1994,Georgia,49746,1957,none
+1994,Hawaii,66801,3831,none
+1994,Idaho,49856,2020,none
+1994,Illinois,55460,1263,none
+1994,Indiana,44041,1631,none
+1994,Iowa,52295,2024,none
+1994,Kansas,44775,1682,none
+1994,Kentucky,42044,1625,none
+1994,Louisiana,40591,2373,none
+1994,Maine,47927,2430,none
+1994,Maryland,61968,2213,none
+1994,Massachusetts,64027,1676,none
+1994,Michigan,55781,1083,none
+1994,Minnesota,53188,2150,none
+1994,Mississippi,40155,1189,none
+1994,Missouri,47728,2280,none
+1994,Montana,43682,1970,none
+1994,Nebraska,50263,1764,none
+1994,Nevada,56709,2425,none
+1994,New Hampshire,55719,2904,none
+1994,New Jersey,66841,1682,none
+1994,New Mexico,42534,2185,none
+1994,New York,50429,754,none
+1994,North Carolina,47607,1059,none
+1994,North Dakota,44705,1763,none
+1994,Ohio,50360,923,none
+1994,Oklahoma,42670,1918,none
+1994,Oregon,49729,1783,none
+1994,Pennsylvania,50693,1034,none
+1994,Rhode Island,50475,2088,none
+1994,South Carolina,47184,1801,none
+1994,South Dakota,47005,1873,none
+1994,Tennessee,45276,1625,none
+1994,Texas,48621,1035,none
+1994,Utah,56464,1646,none
+1994,Vermont,56600,3013,none
+1994,Virginia,59516,2420,none
+1994,Washington,53013,1881,none
+1994,West Virginia,37253,1924,none
+1994,Wisconsin,55945,2011,none
+1993,United States,50421,236,none
+1993,Alabama,40480,1756,none
+1993,Alaska,69287,2652,none
+1993,Arizona,49241,1808,none
+1993,Arkansas,37183,1367,none
+1993,California,54991,1051,none
+1993,Colorado,55661,2532,none
+1993,Connecticut,63776,2679,none
+1993,Delaware,58204,1370,none
+1993,D.C.,44067,2786,none
+1993,Florida,46077,1141,none
+1993,Georgia,51102,2024,none
+1993,Hawaii,68853,2839,none
+1993,Idaho,50048,2135,none
+1993,Illinois,53029,1307,none
+1993,Indiana,47570,2197,none
+1993,Iowa,46260,2001,none
+1993,Kansas,48046,1846,none
+1993,Kentucky,39341,1761,none
+1993,Louisiana,42465,1879,none
+1993,Maine,44283,1942,none
+1993,Maryland,64458,2069,none
+1993,Massachusetts,59818,1532,none
+1993,Michigan,52714,1101,none
+1993,Minnesota,54360,1956,none
+1993,Mississippi,35815,1984,none
+1993,Missouri,46290,2366,none
+1993,Montana,42720,1557,none
+1993,Nebraska,50044,1344,none
+1993,Nevada,57801,1740,none
+1993,New Hampshire,61271,2615,none
+1993,New Jersey,65364,1591,none
+1993,New Mexico,43185,1377,none
+1993,New York,51156,897,none
+1993,North Carolina,46513,1054,none
+1993,North Dakota,45380,1348,none
+1993,Ohio,50492,1062,none
+1993,Oklahoma,42382,2408,none
+1993,Oregon,53482,1872,none
+1993,Pennsylvania,50023,1120,none
+1993,Rhode Island,54081,2497,none
+1993,South Carolina,42047,1549,none
+1993,South Dakota,44765,1678,none
+1993,Tennessee,40513,1341,none
+1993,Texas,46363,989,none
+1993,Utah,57756,2004,none
+1993,Vermont,50136,1543,none
+1993,Virginia,58800,2239,none
+1993,Washington,57544,1793,none
+1993,West Virginia,36186,1583,none
+1993,Wisconsin,51268,2163,none
+1992,United States,50667,240,none
+1992,Alabama,42682,1750,none
+1992,Alaska,69133,1912,none
+1992,Arizona,48553,1799,none
+1992,Arkansas,39497,2312,none
+1992,California,57724,1040,none
+1992,Colorado,53723,2433,none
+1992,Connecticut,67544,3261,none
+1992,Delaware,59005,2304,none
+1992,D.C.,50023,1859,none
+1992,Florida,45231,870,none
+1992,Georgia,47625,2031,none
+1992,Hawaii,69648,2373,none
+1992,Idaho,45818,1445,none
+1992,Illinois,52180,1244,none
+1992,Indiana,47184,2175,none
+1992,Iowa,47536,1608,none
+1992,Kansas,50187,1880,none
+1992,Kentucky,38840,2082,none
+1992,Louisiana,42072,1889,none
+1992,Maine,48981,1697,none
+1992,Maryland,61527,2689,none
+1992,Massachusetts,60132,1221,none
+1992,Michigan,53364,1259,none
+1992,Minnesota,51237,2145,none
+1992,Mississippi,34019,1776,none
+1992,Missouri,45250,2400,none
+1992,Montana,43868,1204,none
+1992,Nebraska,49694,1771,none
+1992,Nevada,52770,1316,none
+1992,New Hampshire,65220,3179,none
+1992,New Jersey,64499,1391,none
+1992,New Mexico,42768,2228,none
+1992,New York,51353,875,none
+1992,North Carolina,45928,1019,none
+1992,North Dakota,44586,1490,none
+1992,Ohio,51937,971,none
+1992,Oklahoma,41815,1778,none
+1992,Oregon,52802,3372,none
+1992,Pennsylvania,49420,1103,none
+1992,Rhode Island,50329,2370,none
+1992,South Carolina,45609,2372,none
+1992,South Dakota,43428,1106,none
+1992,Tennessee,40218,1510,none
+1992,Texas,46229,1049,none
+1992,Utah,56645,1894,none
+1992,Vermont,54171,2205,none
+1992,Virginia,63173,2248,none
+1992,Washington,56065,2062,none
+1992,West Virginia,33525,1475,none
+1992,Wisconsin,55086,1814,none
+1991,United States,51086,244,none
+1991,Alabama,41285,1811,none
+1991,Alaska,68868,3090,none
+1991,Arizona,52123,1521,none
+1991,Arkansas,39740,1328,none
+1991,California,57086,1162,none
+1991,Colorado,53415,2111,none
+1991,Connecticut,71483,3297,none
+1991,Delaware,55256,1884,none
+1991,D.C.,50678,3227,none
+1991,Florida,46213,805,none
+1991,Georgia,46145,1845,none
+1991,Hawaii,63160,2764,none
+1991,Idaho,44286,1745,none
+1991,Illinois,54068,1211,none
+1991,Indiana,45936,1563,none
+1991,Iowa,48419,1716,none
+1991,Kansas,49677,1584,none
+1991,Kentucky,40298,1774,none
+1991,Louisiana,42901,1960,none
+1991,Maine,47257,2125,none
+1991,Maryland,62662,2403,none
+1991,Massachusetts,60562,1340,none
+1991,Michigan,54463,1168,none
+1991,Minnesota,49989,1943,none
+1991,Mississippi,33025,1786,none
+1991,Missouri,47356,2399,none
+1991,Montana,42101,1509,none
+1991,Nebraska,50108,1708,none
+1991,Nevada,55853,2652,none
+1991,New Hampshire,61102,2271,none
+1991,New Jersey,67913,1752,none
+1991,New Mexico,45005,2026,none
+1991,New York,53915,912,none
+1991,North Carolina,45536,865,none
+1991,North Dakota,43907,1580,none
+1991,Ohio,50517,1287,none
+1991,Oklahoma,43177,1830,none
+1991,Oregon,51195,1843,none
+1991,Pennsylvania,51495,1041,none
+1991,Rhode Island,52290,1850,none
+1991,South Carolina,46571,1928,none
+1991,South Dakota,41782,1323,none
+1991,Tennessee,41466,1552,none
+1991,Texas,47028,1062,none
+1991,Utah,47508,2305,none
+1991,Vermont,49440,2072,none
+1991,Virginia,61280,2266,none
+1991,Washington,57605,2009,none
+1991,West Virginia,39252,1557,none
+1991,Wisconsin,52794,1726,none
+1990,United States,52623,269,none
+1990,Alabama,41049,1822,none
+1990,Alaska,69064,2859,none
+1990,Arizona,51360,2005,none
+1990,Arkansas,40045,1724,none
+1990,California,58506,993,none
+1990,Colorado,54012,1592,none
+1990,Connecticut,68312,3685,none
+1990,Delaware,54137,1956,none
+1990,D.C.,48140,2745,none
+1990,Florida,46898,798,none
+1990,Georgia,48437,2084,none
+1990,Hawaii,68402,2485,none
+1990,Idaho,44472,1714,none
+1990,Illinois,57191,1272,none
+1990,Indiana,47325,1931,none
+1990,Iowa,47957,1733,none
+1990,Kansas,52578,2072,none
+1990,Kentucky,43550,2132,none
+1990,Louisiana,39376,2777,none
+1990,Maine,48267,2763,none
+1990,Maryland,68289,2805,none
+1990,Massachusetts,63702,1455,none
+1990,Michigan,52613,1165,none
+1990,Minnesota,55298,1807,none
+1990,Mississippi,35462,1409,none
+1990,Missouri,48035,2450,none
+1990,Montana,41080,1728,none
+1990,Nebraska,48298,1982,none
+1990,Nevada,56279,2072,none
+1990,New Hampshire,71713,2308,none
+1990,New Jersey,68073,1518,none
+1990,New Mexico,44005,1842,none
+1990,New York,55520,898,none
+1990,North Carolina,46272,977,none
+1990,North Dakota,44400,1763,none
+1990,Ohio,52746,1265,none
+1990,Oklahoma,42854,1835,none
+1990,Oregon,51460,1698,none
+1990,Pennsylvania,50975,1209,none
+1990,Rhode Island,56182,2065,none
+1990,South Carolina,50500,2431,none
+1990,South Dakota,43182,1508,none
+1990,Tennessee,39704,1527,none
+1990,Texas,49609,1258,none
+1990,Utah,52973,1789,none
+1990,Vermont,54653,2339,none
+1990,Virginia,61639,1842,none
+1990,Washington,56435,2177,none
+1990,West Virginia,38905,2007,none
+1990,Wisconsin,53973,1576,none
+1989,United States,53306,293,none
+1989,Alabama,39250,1973,none
+1989,Alaska,66399,2541,none
+1989,Arizona,52653,2231,none
+1989,Arkansas,39525,1687,none
+1989,California,60872,1140,none
+1989,Colorado,49433,2578,none
+1989,Connecticut,78045,2936,none
+1989,Delaware,59137,2089,none
+1989,D.C.,49334,1872,none
+1989,Florida,48104,876,none
+1989,Georgia,50791,1883,none
+1989,Hawaii,64609,2449,none
+1989,Idaho,45465,1757,none
+1989,Illinois,57721,1149,none
+1989,Indiana,47759,1885,none
+1989,Iowa,48436,1461,none
+1989,Kansas,49537,1674,none
+1989,Kentucky,42937,2224,none
+1989,Louisiana,42158,3425,none
+1989,Maine,52043,2561,none
+1989,Maryland,66418,2189,none
+1989,Massachusetts,66547,1298,none
+1989,Michigan,56753,1457,none
+1989,Minnesota,55665,2357,none
+1989,Mississippi,36729,1746,none
+1989,Missouri,48864,1376,none
+1989,Montana,43691,2418,none
+1989,Nebraska,48535,2805,none
+1989,Nevada,54106,1748,none
+1989,New Hampshire,69213,2528,none
+1989,New Jersey,72142,1748,none
+1989,New Mexico,41681,1898,none
+1989,New York,58082,835,none
+1989,North Carolina,48696,953,none
+1989,North Dakota,46525,1665,none
+1989,Ohio,53518,1208,none
+1989,Oklahoma,43645,2279,none
+1989,Oregon,52611,2646,none
+1989,Pennsylvania,52908,1261,none
+1989,Rhode Island,55552,2497,none
+1989,South Carolina,43886,1953,none
+1989,South Dakota,44458,1842,none
+1989,Tennessee,41697,2407,none
+1989,Texas,47737,1031,none
+1989,Utah,56646,1870,none
+1989,Vermont,57712,2095,none
+1989,Virginia,62917,2222,none
+1989,Washington,58940,2715,none
+1989,West Virginia,39975,1555,none
+1989,Wisconsin,53706,2287,none
+1988,United States,52372,267,none
+1988,Alabama,38373,1754,none
+1988,Alaska,63679,2276,none
+1988,Arizona,50852,1622,none
+1988,Arkansas,38804,1358,none
+1988,California,58262,1220,none
+1988,Colorado,50427,2472,none
+1988,Connecticut,69662,2487,none
+1988,Delaware,58682,2245,none
+1988,D.C.,51441,1439,none
+1988,Florida,48873,914,none
+1988,Georgia,51104,1724,none
+1988,Hawaii,63527,2851,none
+1988,Idaho,45110,1931,none
+1988,Illinois,56795,1450,none
+1988,Indiana,50579,1791,none
+1988,Iowa,46755,2074,none
+1988,Kansas,49181,2218,none
+1988,Kentucky,38295,1541,none
+1988,Louisiana,39430,2835,none
+1988,Maine,50789,1812,none
+1988,Maryland,70314,2301,none
+1988,Massachusetts,63891,1614,none
+1988,Michigan,56694,1168,none
+1988,Minnesota,55954,2003,none
+1988,Mississippi,34945,1708,none
+1988,Missouri,45097,2093,none
+1988,Montana,42765,1595,none
+1988,Nebraska,48398,1847,none
+1988,Nevada,53830,1839,none
+1988,New Hampshire,66607,2172,none
+1988,New Jersey,69804,1266,none
+1988,New Mexico,37119,1602,none
+1988,New York,55623,1285,none
+1988,North Carolina,46966,1031,none
+1988,North Dakota,46345,1941,none
+1988,Ohio,53363,1223,none
+1988,Oklahoma,45528,1454,none
+1988,Oregon,53378,2212,none
+1988,Pennsylvania,51443,956,none
+1988,Rhode Island,57406,3047,none
+1988,South Carolina,49117,2212,none
+1988,South Dakota,42886,1352,none
+1988,Tennessee,40120,1956,none
+1988,Texas,48021,1120,none
+1988,Utah,50618,1749,none
+1988,Vermont,55763,2072,none
+1988,Virginia,62804,2537,none
+1988,Washington,62187,1981,none
+1988,West Virginia,37229,1789,none
+1988,Wisconsin,56893,1881,none
+1987,United States,51973,253,none
+1987,Alabama,39355,2287,none
+1987,Alaska,66275,2985,none
+1987,Arizona,53345,1779,none
+1987,Arkansas,37546,2010,none
+1987,California,60119,1073,none
+1987,Colorado,52800,2144,none
+1987,Connecticut,65536,2716,none
+1987,Delaware,58320,1745,none
+1987,D.C.,54753,2563,none
+1987,Florida,48838,949,none
+1987,Georgia,53275,2752,none
+1987,Hawaii,69843,2142,none
+1987,Idaho,41391,1663,none
+1987,Illinois,54013,1069,none
+1987,Indiana,44909,1883,none
+1987,Iowa,44253,1819,none
+1987,Kansas,51019,1795,none
+1987,Kentucky,41227,1873,none
+1987,Louisiana,42576,1711,none
+1987,Maine,47065,2032,none
+1987,Maryland,69739,2768,none
+1987,Massachusetts,64297,1428,none
+1987,Michigan,55245,1444,none
+1987,Minnesota,56003,2220,none
+1987,Mississippi,36920,1797,none
+1987,Missouri,47304,2327,none
+1987,Montana,40831,1593,none
+1987,Nebraska,46403,1518,none
+1987,Nevada,53602,2250,none
+1987,New Hampshire,64491,2892,none
+1987,New Jersey,68286,1583,none
+1987,New Mexico,41397,1238,none
+1987,New York,52617,909,none
+1987,North Carolina,45389,1081,none
+1987,North Dakota,45023,1805,none
+1987,Ohio,51398,1107,none
+1987,Oklahoma,43258,1763,none
+1987,Oregon,49932,2178,none
+1987,Pennsylvania,50702,1079,none
+1987,Rhode Island,56422,2872,none
+1987,South Carolina,49954,2265,none
+1987,South Dakota,42181,1191,none
+1987,Tennessee,42237,1585,none
+1987,Texas,49300,1270,none
+1987,Utah,52906,2381,none
+1987,Vermont,50684,2740,none
+1987,Virginia,59820,2020,none
+1987,Washington,54481,2210,none
+1987,West Virginia,34315,1552,none
+1987,Wisconsin,52587,2812,none
+1986,United States,51329,266,none
+1986,Alabama,39443,1825,none
+1986,Alaska,64645,2097,none
+1986,Arizona,52572,1480,none
+1986,Arkansas,38615,1577,none
+1986,California,59808,1175,none
+1986,Colorado,56060,1909,none
+1986,Connecticut,67459,3309,none
+1986,Delaware,52832,2499,none
+1986,D.C.,50143,2581,none
+1986,Florida,47107,1113,none
+1986,Georgia,50242,2293,none
+1986,Hawaii,59794,2486,none
+1986,Idaho,42777,1402,none
+1986,Illinois,54656,1307,none
+1986,Indiana,46857,1462,none
+1986,Iowa,46303,1546,none
+1986,Kansas,49327,1612,none
+1986,Kentucky,40973,2074,none
+1986,Louisiana,43068,1971,none
+1986,Maine,48292,2000,none
+1986,Maryland,63095,2136,none
+1986,Massachusetts,62548,1515,none
+1986,Michigan,54850,1336,none
+1986,Minnesota,54516,2371,none
+1986,Mississippi,34044,1317,none
+1986,Missouri,45202,1592,none
+1986,Montana,41909,1544,none
+1986,Nebraska,44886,1678,none
+1986,Nevada,54050,1845,none
+1986,New Hampshire,62979,1709,none
+1986,New Jersey,65385,1736,none
+1986,New Mexico,40913,1429,none
+1986,New York,51593,977,none
+1986,North Carolina,45070,1439,none
+1986,North Dakota,44342,1618,none
+1986,Ohio,51778,1212,none
+1986,Oklahoma,43187,1796,none
+1986,Oregon,51073,2066,none
+1986,Pennsylvania,49082,1021,none
+1986,Rhode Island,54716,2185,none
+1986,South Carolina,45290,1781,none
+1986,South Dakota,41023,1369,none
+1986,Tennessee,37637,1822,none
+1986,Texas,49814,1060,none
+1986,Utah,54182,1670,none
+1986,Vermont,50714,2068,none
+1986,Virginia,61262,2214,none
+1986,Washington,55419,1959,none
+1986,West Virginia,33943,1866,none
+1986,Wisconsin,54489,1656,none
+1985,United States,49574,269,none
+1985,Alabama,38480,1595,none
+1985,Alaska,73007,2286,none
+1985,Arizona,50117,1562,none
+1985,Arkansas,36629,1604,none
+1985,California,56632,735,none
+1985,Colorado,59153,1784,none
+1985,Connecticut,65257,2370,none
+1985,Delaware,48234,2867,none
+1985,D.C.,44238,1587,none
+1985,Florida,44798,917,none
+1985,Georgia,44181,1654,none
+1985,Hawaii,60788,3035,none
+1985,Idaho,43577,1255,none
+1985,Illinois,52201,1098,none
+1985,Indiana,47594,1314,none
+1985,Iowa,43925,1268,none
+1985,Kansas,47831,2168,none
+1985,Kentucky,36440,1570,none
+1985,Louisiana,44454,1528,none
+1985,Maine,43069,1685,none
+1985,Maryland,63255,2028,none
+1985,Massachusetts,59206,1700,none
+1985,Michigan,50883,1759,none
+1985,Minnesota,50073,2145,none
+1985,Mississippi,34450,1299,none
+1985,Missouri,46049,1276,none
+1985,Montana,42475,1679,none
+1985,Nebraska,45756,1918,none
+1985,Nevada,48852,2109,none
+1985,New Hampshire,55419,2254,none
+1985,New Jersey,65026,1350,none
+1985,New Mexico,42867,2151,none
+1985,New York,49618,1098,none
+1985,North Carolina,45025,1228,none
+1985,North Dakota,44509,1698,none
+1985,Ohio,52840,1184,none
+1985,Oklahoma,44509,1604,none
+1985,Oregon,45955,2187,none
+1985,Pennsylvania,48018,1129,none
+1985,Rhode Island,51687,1889,none
+1985,South Carolina,42055,1809,none
+1985,South Dakota,38080,1473,none
+1985,Tennessee,37316,1169,none
+1985,Texas,49836,1146,none
+1985,Utah,52974,1473,none
+1985,Vermont,54573,1977,none
+1985,Virginia,59672,2779,none
+1985,Washington,50375,1587,none
+1985,West Virginia,33548,1738,none
+1985,Wisconsin,48793,2437,none
+1984,United States,48664,221,none
+1984,Alabama,37581,1313,none
+1984,Alaska,70246,3198,none
+1984,Arizona,46514,1322,none
+1984,Arkansas,34029,1624,none
+1984,California,54899,790,none
+1984,Colorado,56015,1748,none
+1984,Connecticut,65025,2688,none
+1984,Delaware,56054,2230,none
+1984,D.C.,44307,1867,none
+1984,Florida,42954,1016,none
+1984,Georgia,43386,1769,none
+1984,Hawaii,62693,2640,none
+1984,Idaho,45791,2091,none
+1984,Illinois,51566,1231,none
+1984,Indiana,49434,1541,none
+1984,Iowa,43123,1617,none
+1984,Kansas,53470,1980,none
+1984,Kentucky,38384,2343,none
+1984,Louisiana,41139,1911,none
+1984,Maine,44828,1919,none
+1984,Maryland,64497,2499,none
+1984,Massachusetts,58529,1505,none
+1984,Michigan,49858,1379,none
+1984,Minnesota,53051,1984,none
+1984,Mississippi,33499,1589,none
+1984,Missouri,45103,1552,none
+1984,Montana,42413,1563,none
+1984,Nebraska,46454,1661,none
+1984,Nevada,55961,2210,none
+1984,New Hampshire,56260,1596,none
+1984,New Jersey,60303,1737,none
+1984,New Mexico,44788,2234,none
+1984,New York,47821,905,none
+1984,North Carolina,44656,1392,none
+1984,North Dakota,45095,2254,none
+1984,Ohio,50201,1068,none
+1984,Oklahoma,45913,1559,none
+1984,Oregon,46458,1617,none
+1984,Pennsylvania,44172,1083,none
+1984,Rhode Island,46920,1841,none
+1984,South Carolina,44092,2028,none
+1984,South Dakota,42138,2015,none
+1984,Tennessee,36434,1251,none
+1984,Texas,49986,1157,none
+1984,Utah,50058,1596,none
+1984,Vermont,49018,2134,none
+1984,Virginia,57587,1897,none
+1984,Washington,54313,1787,none
+1984,West Virginia,36567,1320,none
+1984,Wisconsin,45034,1782,none
+2017,United States,60336,,
+2017,Alabama,48123,,
+2017,Alaska,73181,,
+2017,Arizona,56581,,
+2017,Arkansas,45869,,
+2017,California,71805,,
+2017,Colorado,69117,,
+2017,Connecticut,74168,,
+2017,Delaware,62852,,
+2017,District of Columbia,$82372,,
+2017,Florida,$52594,,
+2017,Georgia,$56183,,
+2017,Hawaii,$77765,,
+2017,Idaho,$52225,,
+2017,Illinois,$62992,,
+2017,Indiana,$54181,,
+2017,Iowa,$58570,,
+2017,Kansas,$56422,,
+2017,Kentucky,$48375,,
+2017,Louisiana,$46145,,
+2017,Maine,$56277,,
+2017,Maryland,$80776,,
+2017,Massachusetts,$77385,,
+2017,Michigan,$54909,,
+2017,Minnesota,$68388,,
+2017,Mississippi,$43529,,
+2017,Missouri,$53578,,
+2017,Montana,$53386,,
+2017,Nebraska,$59970,,
+2017,Nevada,$58003,,
+2017,New Hampshire,$73381,,
+2017,New Jersey,$80088,,
+2017,New Mexico,$46744,,
+2017,New York,$64894,,
+2017,North Carolina,$52752,,
+2017,North Dakota,$61843,,
+2017,Ohio,$54021,,
+2017,Oklahoma,$50051,,
+2017,Oregon,$60212,,
+2017,Pennsylvania,$59195,,
+2017,Rhode Island,$63870,,
+2017,South Carolina,$50570,,
+2017,South Dakota,$56521,,
+2017,Tennessee,$51340,,
+2017,Texas,$59206,,
+2017,Utah,$68358,,
+2017,Vermont,$57513,,
+2017,Virginia,$71535,,
+2017,Washington,$70979,,
+2017,West Virginia,$43469,,
+2017,Wisconsin,$59305,,
+2017,Wyoming,$60434,,
+2017,Puerto Rico,$19343,,
