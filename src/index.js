@@ -7,7 +7,7 @@ let allData = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    d3.csv("/data/median-household-income-by-state.csv")
+    d3.csv("../data/median-household-income-by-state.csv")
         .then( data => {
             //debugger
             allData = data;
