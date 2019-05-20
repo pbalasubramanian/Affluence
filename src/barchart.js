@@ -27,9 +27,10 @@ function barchart(ydataset, xdataset) {
     //     .domain([0, d3.max(ydataset)])
     //     .range([0, svgWidth]);
 
-    var xScale = d3.scaleOrdinal()
-        .domain(xdataset)
-        .range([0, svgWidth]);
+    // console.log(xdataset);
+    var xScale = d3.scaleLinear()
+        .domain([0, 50])
+        .range([47, svgWidth]);
 
 
     // var xScale = d3.scale.ordinal().
@@ -40,7 +41,8 @@ function barchart(ydataset, xdataset) {
         .domain([0, d3.max(ydataset)])
         .range([svgHeight, 0]);
 
-    var x_axis = d3.axisBottom().scale(xScale).ticks(50);
+    var x_axis = d3.axisBottom().scale(xScale)
+        .ticks(50).tickFormat(function (d, i) { return xdataset[i]; });
 
     // var axis = d3.axisBottom(scale)(svg.append("g")
     //     .attr("transform", "translate(0,50)"));
@@ -61,26 +63,49 @@ function barchart(ydataset, xdataset) {
 
     var xAxisTranslate = svgHeight - 10;
 
-
     svg.append("g")
         .attr("transform", "translate(40, " + xAxisTranslate + ")")
         .call(x_axis)
         .selectAll("text")
-            .attr("class", "xaxis-class")
-            .attr("x", function (d, i) {
-                return (barWidth * i) + 20;
-            })
-            // .attr("x", 10)
-            .attr("y", 25)
-            // .attr("transform", "rotate(-65)")
-            // .attr("transform", "rotate(-45)")
-            .style("text-anchor", "end");
+        .attr("class", "xaxis-class")
+        .attr("transform", function (d, i) {
+            // console.log(barWidth * i);
+            // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
+            return "rotate(45)";
+        })
+        .attr("x", 5)
+        .attr("y", 0)
+        .style("text-anchor", "start");
+
+    // var xScale_states = d3.scaleOrdinal()
+    //     .domain(xdataset)
+    //     .range([0, 0]);
+
+    // var x_axis_states = d3.axisBottom().scale(xScale_states);
+
+    // svg.append("g")
+    //     .attr("transform", "translate(40, " + xAxisTranslate + ")")
+    //     .call(x_axis_states)
+    //     .selectAll("text")
+    //     .attr("class", "xaxis-class")
+    //     // .attr("dy", ".35em")
+    //     // .attr("transform", "translate(40, " + xAxisTranslate + ")" + "rotate(-65)")
+    //     .attr("transform", function (d, i) {
+    //         console.log(barWidth*i);
+    //         return "translate(" + (((barWidth) * i) + 8) + "), " + "rotate(-45)";
+    //         // return "rotate(-45)";
+    //     })
+    //     .attr("x", -22)
+    //     .attr("y", 35)
+    //     // .attr("dy", "1.2em")
+    //     // .attr("transform", "rotate(-45)")
+    //     .style("text-anchor", "start");
 
 
     svg.append("text")
         .attr("text-anchor", "end")
         .attr("x", svgHeight - 50)
-        .attr("y", svgHeight + 50)
+        .attr("y", svgHeight + 70)
         .attr("font-size", "16px")
         .text("States");
 
