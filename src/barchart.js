@@ -146,7 +146,7 @@ function barchart(ydataset, xdataset) {
                     + "<tspan x='0' dy='1.2em'>" + "State: " + xdataset[i] + "</tspan>");
         })
         .on("click", function (d) {
-            alert("drawing pie chart");
+            // alert("drawing pie chart");
         });
 
 

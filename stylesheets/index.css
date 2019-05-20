@@ -1,5 +1,25 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+}
+
+.col-md-7 {
+	display: flex;
+}
+
+.col-md-5 {
+	display: flex;
+	height: 0px;
+}
+
 .bar-chart {
-	width: 1300px;
+	width: 1100px;
 	height: 670px;
 	padding: 10px;
 	padding-right: 40px;
@@ -32,3 +52,43 @@ input[name=yearSelect] {
 .xaxis-class text {
 	/* transform: rotate(-65deg); */
 }
+
+
+.pie-chart-area {
+      /* margin:auto; */
+	  /* display:inherit; */
+	  width: 500px;
+	  height: 450px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+	
+.money-cell { 
+	text-align: right; 
+}
+	
+h2 { 
+	text-align: center; 
+}
+
+#leg1 { background-color: #da0a37; }
+#leg2 { background-color: #eb5317; }
+#leg3 { background-color: #2c5bc9; }
+#leg4 { background-color: #d44da1; }
+#leg5 { background-color: #5d8f0c; }
+#avLeg { background-color: grey; }
+
+@media screen and (min-width: 768px) {
+	table { margin-top: 100px; }
+}
+
+@media screen and (min-width: 768px) {
+	table { margin-top: 100px; }
+}
+
+/* #page-main { margin-top: 10px; } */

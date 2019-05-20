@@ -1,4 +1,6 @@
 import barchart from './barchart';
+import piechart from './piechart';
+
 import * as d3 from 'd3';
 
 let allData = [];
@@ -14,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
             barchart(filteredData.map(item => item.medianincome),
                 filteredData.map(item => item.state))
 
+            piechart(yearSelect.value);
+
         }
     );
 
@@ -26,7 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
             barchart(filteredData.map(item => item.medianincome),
                 filteredData.map(item => item.state))
+            piechart(yearSelect.value);
         }
     );
+    
     
 })
