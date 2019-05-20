@@ -61,7 +61,7 @@ function piechart(selectedYear) {
         return t => arc(i(t));
     }
 
-    d3.csv("../data/household-income-brackets.csv", prepareData).then(data => {
+    d3.csv("data/household-income-brackets.csv", prepareData).then(data => {
         data = data.reverse();
 
         // console.log(data);
