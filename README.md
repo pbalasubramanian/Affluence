@@ -38,6 +38,7 @@ Users can select a year using the slider to view the household income data for a
     var x_axis = d3.axisBottom().scale(xScale)
         .ticks(50).tickFormat(function (d, i) { return xdataset[i]; });
 
+
     svg.append("g")
         .attr("transform", "translate(40, " + xAxisTranslate + ")")
         .call(x_axis)
@@ -52,6 +53,9 @@ Users can select a year using the slider to view the household income data for a
 ```    
 * Pie chart - adding text within arcs
 ```Javascript
+    const arc1 = arc.outerRadius(d => radiusScale(d.data.value));
+
+
     path.enter().append("text")
         .attr("transform", function (d) {
             return "translate(" + arc1.centroid(d) + ")";
