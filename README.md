@@ -14,7 +14,7 @@ It also shows a visual representation of the different income brackets.
 
 ## Technologies used
 
-* Vanilla JavaScript
+* Vanilla Javascript
 * D3.js for data visualization
 * HTML
 * CSS
@@ -22,8 +22,8 @@ It also shows a visual representation of the different income brackets.
 ## Data
 
 * Data was downloaded in .csv format from United States Census Bureau (census.gov).
-* This application shows visualization of 2 data sets. 
 * This data was then parsed and used for visualization.
+* This application shows visualization of 2 data sets.
 
 ## Features
 
