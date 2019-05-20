@@ -34,6 +34,7 @@ Users can select a year using the slider to view the household income data for a
 ## Code
 
 * Bar chart x-axis states rendering
+
 ```Javascript
     var x_axis = d3.axisBottom().scale(xScale)
         .ticks(50).tickFormat(function (d, i) { return xdataset[i]; });
@@ -50,8 +51,10 @@ Users can select a year using the slider to view the household income data for a
         .attr("x", 5)
         .attr("y", 0)
         .style("text-anchor", "start");
-```    
+```
+
 * Pie chart - adding text within arcs
+
 ```Javascript
     const arc1 = arc.outerRadius(d => radiusScale(d.data.value));
 
