@@ -17,7 +17,8 @@ function piechart(selectedYear) {
         .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
     // const color = d3.scaleOrdinal(["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f"]);
-    const color = d3.scaleOrdinal(["#da0a37", "#eb5317", "#2c5bc9", "#d44da1", "#5d8f0c", "#ffd92f"]);
+    // const color = d3.scaleOrdinal(["#da0a37", "#eb5317", "#2c5bc9", "#d44da1", "#5d8f0c", "#ffd92f"]);
+    const color = d3.scaleOrdinal(["#9A031E", "#CB793A", "#FCDC4D", "#05668D", "#139A43"]);
 
     const pie = d3.pie()
         .value(1)
