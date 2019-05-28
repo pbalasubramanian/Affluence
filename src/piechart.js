@@ -88,9 +88,10 @@ function piechart(selectedYear) {
 
             path.enter().append("text")
                 .attr("transform", function (d) {
-                    return "translate(" + arc1.centroid(d) + ")";
+                    let [x,y] = arc1.centroid(d);
+                    return "translate(" + [x-16,y] + ")";
                 })
-                .attr("text-anchor", "center")
+                .attr("text-anchor", "start")
                 .text(function (d) { return d.data.value; });
 
             svg.select(".averageLine").transition().duration(200)
