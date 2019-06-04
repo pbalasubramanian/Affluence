@@ -33,6 +33,42 @@ document.addEventListener('DOMContentLoaded', () => {
             piechart(yearSelect.value);
         }
     );
-    
-    
+
+    const playButton = document.getElementById('play-button');
+    let year = "1984";
+    let interval = null;
+    playButton.addEventListener("click", () => {
+        if (playButton.innerText === "Play") {
+            playButton.innerText = "Pause";
+            if( year < 2015 ) {
+                interval = setInterval(step, 200);
+            } else {
+                clearInterval(interval);
+            }
+        } else {
+            //alert("pausing");
+            playButton.innerText = "Play";
+            clearInterval(interval);
+            interval = 0;
+        }
+    });
+
+    function step() {
+        document.querySelector('input').value = year;
+        document.getElementsByClassName('yearDisplay')[0].innerHTML = year;
+        const filteredData = allData.filter((item) => item.year === year).slice(1);
+        barchart(filteredData.map(item => item.medianincome),
+            filteredData.map(item => item.state))
+        piechart(year);
+        if( year < 2015 ) {
+            let intyear = parseInt(year);
+            intyear = intyear + 1;
+            year = intyear + "";
+        } else {
+            playButton.innerText = "Play";
+            clearInterval(interval);
+            interval = 0;
+            year = "1984";
+        }
+    }
 })

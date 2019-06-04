@@ -15,6 +15,14 @@ body h1 {
 	margin-right: 5%;
 }
 
+#play-button {
+	/* background-color: #CB793A; */
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    width: 100px;
+}
+	
 .row {
 	display: flex;
 	flex-direction: column;
