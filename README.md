@@ -34,6 +34,7 @@ Users can select a year using the slider to view the household income data for a
 ## Code
 
 * Bar chart x-axis states rendering
+To render the states along x-axis, use scaleLinear with a range of the width of the bar chart with domain 50 and then set the ticks and tickFormat to actually display the actual state name from the data set. In order to fit the state names, set the tranform attribute to rotate it by an angle.
 
 ```Javascript
     var x_axis = d3.axisBottom().scale(xScale)
@@ -54,17 +55,19 @@ Users can select a year using the slider to view the household income data for a
 ```
 
 * Pie chart - adding text within arcs
+To add text within each arc, get the arc's center and then transform the text to be rendered relative to the center.
 
 ```Javascript
     const arc1 = arc.outerRadius(d => radiusScale(d.data.value));
 
 
     path.enter().append("text")
-        .attr("transform", function (d) {
-            return "translate(" + arc1.centroid(d) + ")";
-        })
-        .attr("text-anchor", "center")
-        .text(function (d) { return d.data.value; });
+                .attr("transform", function (d) {
+                    let [x,y] = arc1.centroid(d);
+                    return "translate(" + [x-16,y] + ")";
+                })
+                .attr("text-anchor", "start")
+                .text(function (d) { return d.data.value; });
 ```
 
 ## Future enhancements
