@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (playButton.innerText === "Play") {
             playButton.innerText = "Pause";
             if( year < 2015 ) {
-                interval = setInterval(step, 200);
+                interval = setInterval(step, 400);
             } else {
                 clearInterval(interval);
             }
