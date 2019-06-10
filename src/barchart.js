@@ -1,8 +1,7 @@
 import * as d3 from 'd3';
 
-function barchart(ydataset, xdataset) {
-    //console.log(ydataset);
-
+function barchart(dataset, ydataset, xdataset) {
+    console.log(ydataset);
     // console.log(xdataset);
 
     d3.select('.bar-chart').selectAll('rect').remove();
@@ -114,14 +113,19 @@ function barchart(ydataset, xdataset) {
         .range([0, svgHeight]);
         
     var barChart = svg.selectAll("rect")
-        .data(ydataset)
+        .data(dataset)
         .enter()
         .append("rect")
         .attr("y", function (d) {
-            return svgHeight - yscale(d);
+            let a = d;
+            console.log(a);
+            console.log(yscale(a[0]));
+            if (a && a !== undefined) return svgHeight - yscale(a[0]);
         })
         .attr("height", function (d) {
-            return yscale(d);
+            let a = d;
+            console.log(a);
+            if(a && a !== undefined) return yscale(a[0]);
         })
         .attr("width", barWidth - barPadding)
         .attr("transform", function (d, i) {
@@ -135,6 +139,8 @@ function barchart(ydataset, xdataset) {
 
             var xPosition = d3.mouse(this)[0] - 15 + 82 + barWidth * i;
             var yPosition = d3.mouse(this)[1] - 45;
+            // var xPosition = d3.mouse(this)[0];
+            // var yPosition = d3.mouse(this)[1];
             // console.log(xPosition);
             // console.log(yPosition);
 
@@ -142,8 +148,8 @@ function barchart(ydataset, xdataset) {
             tooltip.select("text")
                 .attr("data-html", "true")
                 // .text("Median Income: " + d + "<br />" +  "State: " + xdataset[i])
-                .html("<tspan x='0'>" + "Median Income: " + d + "</tspan>"
-                    + "<tspan x='0' dy='1.2em'>" + "State: " + xdataset[i] + "</tspan>");
+                .html("<tspan x='0'>" + "Median Income: " + d[0] + "</tspan>"
+                    + "<tspan x='0' dy='1.2em'>" + "State: " + d[1] + "</tspan>");
         })
         .on("click", function (d) {
             // alert("drawing pie chart");
@@ -155,9 +161,9 @@ function barchart(ydataset, xdataset) {
         .style("display", "none");
 
     tooltip.append("rect")
-        .attr("width", 120)
+        .attr("width", 140)
         .attr("height", 40)
-        .attr("fill", "gray")
+        .attr("fill", "darkgreen")
         .style("opacity", 0.7);
 
     tooltip.append("text")
@@ -185,6 +191,118 @@ function barchart(ydataset, xdataset) {
     //     })
     //     .attr("fill", "pink");
 
+    //Sorting logic
+    d3.select("#sortAscending")
+        .on("click", function () {
+
+            d3.select('.bar-chart').selectAll('text.tooltip').remove();
+
+            let newdata = [];
+            barChart.sort(function (a, b) {
+                return d3.ascending(a, b);
+            })
+                .transition()
+                .delay(function (d, i) {
+                    return i * 50;  // gives it a smoother effect
+                })
+                .duration(1000)
+                .attr("transform", function (d, i) {
+                    // console.log(d);
+                    if( d !== undefined )newdata.push(d[1]);
+                    // console.log(dataset[i]);
+                    let xVal = xScale(i) + 35;
+                    // console.log("xVal==" + xVal);
+                    return "translate(" + xVal + ",-10)";
+                });
+                
+            d3.select('.bar-chart').selectAll('text.xaxis-class').remove();
+            
+
+            x_axis = d3.axisBottom().scale(xScale)
+                .ticks(50).tickFormat(function (d, i) { 
+                    return newdata[i];
+                    // let a = dataset[i];
+                    // console.log(dataset[i]);
+                    // if( a !== undefined ) return a[1]; 
+                });
+
+            svg.append("g")
+                .transition()
+                .delay(function (d, i) {
+                    return i * 50;  // gives it a smoother effect
+                })
+                .duration(1000)
+                .attr("transform", "translate(40, " + xAxisTranslate + ")")
+                .call(x_axis)
+                .selectAll("text")
+                .attr("class", "xaxis-class")
+                .attr("transform", function (d, i) {
+                    // console.log(barWidth * i);
+                    // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
+                    return "rotate(45)";
+                })
+                .attr("x", 5)
+                .attr("y", 0)
+                .style("text-anchor", "start");
+
+        });
+
+    d3.select("#sortDescending")
+        .on("click", function () {
+
+            d3.select('.bar-chart').selectAll('text.tooltip').remove();
+
+            let newdata = [];
+            barChart.sort(function (a, b) {
+                console.log(a);
+                console.log(b);
+                return d3.descending(a, b);
+            })
+                .transition()
+                .delay(function (d, i) {
+                    return i * 50;  // gives it a smoother effect
+                })
+                .duration(1000)
+                .attr("transform", function (d, i) {
+                    // console.log(d);
+                    if (d !== undefined) newdata.push(d[1]);
+                    // console.log(dataset[i]);
+                    let xVal = xScale(i) + 35;
+                    // console.log("xVal==" + xVal);
+                    return "translate(" + xVal + ",-10)";
+                });
+
+            d3.select('.bar-chart').selectAll('text.xaxis-class').remove();
+
+
+            x_axis = d3.axisBottom().scale(xScale)
+                .ticks(50).tickFormat(function (d, i) {
+                    return newdata[i];
+                    // let a = dataset[i];
+                    // console.log(dataset[i]);
+                    // if( a !== undefined ) return a[1]; 
+                });
+
+            svg.append("g")
+                .transition()
+                .delay(function (d, i) {
+                    return i * 50;  // gives it a smoother effect
+                })
+                .duration(1000)
+                .attr("transform", "translate(40, " + xAxisTranslate + ")")
+                .call(x_axis)
+                .selectAll("text")
+                .attr("class", "xaxis-class")
+                .attr("transform", function (d, i) {
+                    // console.log(barWidth * i);
+                    // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
+                    return "rotate(45)";
+                })
+                .attr("x", 5)
+                .attr("y", 0)
+                .style("text-anchor", "start");
+
+        });
 }
 
 export default barchart;

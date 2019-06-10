@@ -13,7 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
             allData = data;
 
             const filteredData = allData.filter((item) => item.year === "2000").slice(1);
-            barchart(filteredData.map(item => item.medianincome),
+
+            // console.log(filteredData);
+            // let orderedData = filteredData.sort(function (a, b) {
+            //     return d3.ascending(a[1], b[1]);
+            // });
+
+            // console.log(orderedData);
+
+            barchart(filteredData.map(item => [item.medianincome, item.state]),
+                filteredData.map(item => item.medianincome),
                 filteredData.map(item => item.state))
 
             piechart(yearSelect.value);
@@ -21,15 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     );
 
-    const yearSelect = document.querySelector('input');
+    const yearSelect = document.querySelector('input[type=range]');
     const yearDisplayArr = document.getElementsByClassName('yearDisplay');
     // debugger
     
     yearSelect.addEventListener("change", () => {
             yearDisplayArr[0].innerHTML = yearSelect.value;
             const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
-            barchart(filteredData.map(item => item.medianincome),
-                filteredData.map(item => item.state))
+            barchart(filteredData.map(item => [item.medianincome, item.state]),
+                    filteredData.map(item => item.medianincome),
+                    filteredData.map(item => item.state))
             piechart(yearSelect.value);
         }
     );
@@ -38,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let year = "1984";
     let interval = null;
     playButton.addEventListener("click", () => {
+        document.querySelector('input[type=radio]').checked = "state";
         if (playButton.innerText === "Play") {
             playButton.innerText = "Pause";
             if( year < 2015 ) {
@@ -57,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('input').value = year;
         document.getElementsByClassName('yearDisplay')[0].innerHTML = year;
         const filteredData = allData.filter((item) => item.year === year).slice(1);
-        barchart(filteredData.map(item => item.medianincome),
+        barchart(filteredData.map(item => [item.medianincome, item.state]),
+            filteredData.map(item => item.medianincome),
             filteredData.map(item => item.state))
         piechart(year);
         if( year < 2015 ) {

@@ -15,6 +15,11 @@ body h1 {
 	margin-right: 5%;
 }
 
+#buttonContainer {
+	margin-left: 10%;
+	margin-bottom: 15px;
+}
+
 #play-button {
 	/* background-color: #CB793A; */
 	margin-left: 200px;

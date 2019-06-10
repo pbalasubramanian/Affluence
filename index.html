@@ -15,8 +15,17 @@
     <h1>U.S. Median household Income data for states</h1>
 
     <div class="container" id="page-main">
-        
         <div class="left-div">
+            <div id="buttonContainer">
+                <!-- <button id="sortAscending">Sort Ascending</button>
+                <button id="sortDescending">Sort Descending</button> -->
+                Sort median income by [
+                <input type="radio" name="sortSelect" value="state" checked>State
+                <input type="radio" id="sortAscending" name="sortSelect" value="ascending">Ascending
+                <input type="radio" id="sortDescending" name="sortSelect" value="descending">Descending
+                ]
+            </div>
+
             <svg class="bar-chart"></svg>
             
             <section class="yearSlider">
