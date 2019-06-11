@@ -44,6 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     );
 
+    const sortRadio = document.querySelector('input[type=radio]');
+    sortRadio.addEventListener("click", () => {
+            if (sortRadio.value === "state") {
+                yearDisplayArr[0].innerHTML = yearSelect.value;
+                const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
+                barchart(filteredData.map(item => [item.medianincome, item.state]),
+                    filteredData.map(item => item.medianincome),
+                    filteredData.map(item => item.state))
+                piechart(yearSelect.value);
+            }  
+        }
+    );
+
     const playButton = document.getElementById('play-button');
     let year = "1984";
     let interval = null;

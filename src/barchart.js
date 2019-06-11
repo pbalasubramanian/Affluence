@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 function barchart(dataset, ydataset, xdataset) {
-    console.log(ydataset);
+    // console.log(ydataset);
     // console.log(xdataset);
 
     d3.select('.bar-chart').selectAll('rect').remove();
@@ -118,13 +118,13 @@ function barchart(dataset, ydataset, xdataset) {
         .append("rect")
         .attr("y", function (d) {
             let a = d;
-            console.log(a);
-            console.log(yscale(a[0]));
+            // console.log(a);
+            // console.log(yscale(a[0]));
             if (a && a !== undefined) return svgHeight - yscale(a[0]);
         })
         .attr("height", function (d) {
             let a = d;
-            console.log(a);
+            // console.log(a);
             if(a && a !== undefined) return yscale(a[0]);
         })
         .attr("width", barWidth - barPadding)
@@ -198,6 +198,7 @@ function barchart(dataset, ydataset, xdataset) {
             d3.select('.bar-chart').selectAll('text.tooltip').remove();
 
             let newdata = [];
+            // let fiveData = [];
             barChart.sort(function (a, b) {
                 return d3.ascending(a, b);
             })
@@ -254,8 +255,8 @@ function barchart(dataset, ydataset, xdataset) {
 
             let newdata = [];
             barChart.sort(function (a, b) {
-                console.log(a);
-                console.log(b);
+                // console.log(a);
+                // console.log(b);
                 return d3.descending(a, b);
             })
                 .transition()
