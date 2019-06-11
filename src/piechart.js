@@ -1,8 +1,8 @@
 import * as d3 from 'd3';
 
-function piechart(selectedYear) {
+function piechart(selectedYear, inputdata) {
 
-    const width = 500;
+    const width = 400;
     const height = 450;
 
     d3.select('.pie-chart-area').selectAll('path').remove();
@@ -101,6 +101,11 @@ function piechart(selectedYear) {
             
         }
 
+        if(inputdata !== undefined) {
+            // console.log(inputdata);
+            update(inputdata);
+            return;
+        }
         const filteredData = data.filter((item) => item.name === selectedYear);
         // console.log(filteredData);
         // console.log(data[0]);
@@ -134,6 +139,22 @@ function piechart(selectedYear) {
         document.getElementById("fig4").innerText = data.values[3].value.toLocaleString();
         document.getElementById("fig5").innerText = data.values[4].value.toLocaleString();
         document.getElementById("avFig").innerText = data.average.toLocaleString();
+        
+        if(inputdata !== undefined) {
+            document.getElementById("hd1").innerText = "State";
+            document.getElementById("val1").innerText = data.values[0].name.toLocaleString();
+            document.getElementById("val2").innerText = data.values[1].name.toLocaleString();
+            document.getElementById("val3").innerText = data.values[2].name.toLocaleString();
+            document.getElementById("val4").innerText = data.values[3].name.toLocaleString();
+            document.getElementById("val5").innerText = data.values[4].name.toLocaleString();
+        } else {
+            document.getElementById("hd1").innerText = "Income Bracket";
+            document.getElementById("val1").innerText = "Lowest 20%";
+            document.getElementById("val2").innerText = "Second-Lowest 20%";
+            document.getElementById("val3").innerText = "Middle 20%";
+            document.getElementById("val4").innerText = "Second-Highest 20%";
+            document.getElementById("val5").innerText = "Highest 20%";
+        }
     }
 }
 

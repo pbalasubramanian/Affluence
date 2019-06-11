@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // debugger
     
     yearSelect.addEventListener("change", () => {
+            document.querySelector('input[type=radio]').checked = "state";
             yearDisplayArr[0].innerHTML = yearSelect.value;
             const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
             barchart(filteredData.map(item => [item.medianincome, item.state]),
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let year = "1984";
     let interval = null;
     playButton.addEventListener("click", () => {
-        document.querySelector('input[type=radio]').checked = "state";
+        document.querySelector('input[type=radio]').value = "state";
         if (playButton.innerText === "Play") {
             playButton.innerText = "Pause";
             if( year < 2015 ) {
@@ -80,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function step() {
         document.querySelector('input').value = year;
         document.getElementsByClassName('yearDisplay')[0].innerHTML = year;
+        yearSelect.value = year;
         const filteredData = allData.filter((item) => item.year === year).slice(1);
         barchart(filteredData.map(item => [item.medianincome, item.state]),
             filteredData.map(item => item.medianincome),

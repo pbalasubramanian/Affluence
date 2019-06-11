@@ -1,6 +1,7 @@
 body {
 	font-family: sans-serif;
 	background-color: rgb(233, 241, 241);
+	margin:0 auto;
 }
 
 body h1 {
@@ -86,7 +87,7 @@ input[name=yearSelect] {
 .pie-chart-area {
       /* margin:auto; */
 	  /* display:inherit; */
-	  width: 500px;
+	  width: 400px;
 	  height: 450px;
 }
 

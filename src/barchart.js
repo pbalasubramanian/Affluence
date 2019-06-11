@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import piechart from './piechart';
 
 function barchart(dataset, ydataset, xdataset) {
     // console.log(ydataset);
@@ -198,7 +199,7 @@ function barchart(dataset, ydataset, xdataset) {
             d3.select('.bar-chart').selectAll('text.tooltip').remove();
 
             let newdata = [];
-            // let fiveData = [];
+            let fiveData = [];
             barChart.sort(function (a, b) {
                 return d3.ascending(a, b);
             })
@@ -209,13 +210,18 @@ function barchart(dataset, ydataset, xdataset) {
                 .duration(1000)
                 .attr("transform", function (d, i) {
                     // console.log(d);
-                    if( d !== undefined )newdata.push(d[1]);
+                    if( d !== undefined ) {
+                        newdata.push(d[1]);
+                        if(fiveData.length !== 5) fiveData.push(d);
+                    }
                     // console.log(dataset[i]);
                     let xVal = xScale(i) + 35;
                     // console.log("xVal==" + xVal);
                     return "translate(" + xVal + ",-10)";
                 });
                 
+            // console.log(fiveData);
+            piechart("", setupData(fiveData));
             d3.select('.bar-chart').selectAll('text.xaxis-class').remove();
             
 
@@ -254,6 +260,7 @@ function barchart(dataset, ydataset, xdataset) {
             d3.select('.bar-chart').selectAll('text.tooltip').remove();
 
             let newdata = [];
+            let fiveData = [];
             barChart.sort(function (a, b) {
                 // console.log(a);
                 // console.log(b);
@@ -266,7 +273,10 @@ function barchart(dataset, ydataset, xdataset) {
                 .duration(1000)
                 .attr("transform", function (d, i) {
                     // console.log(d);
-                    if (d !== undefined) newdata.push(d[1]);
+                    if (d !== undefined) {
+                        newdata.push(d[1]);
+                        if (fiveData.length !== 5) fiveData.push(d);
+                    }
                     // console.log(dataset[i]);
                     let xVal = xScale(i) + 35;
                     // console.log("xVal==" + xVal);
@@ -274,7 +284,8 @@ function barchart(dataset, ydataset, xdataset) {
                 });
 
             d3.select('.bar-chart').selectAll('text.xaxis-class').remove();
-
+            // console.log(fiveData);
+            piechart("", setupData(fiveData));
 
             x_axis = d3.axisBottom().scale(xScale)
                 .ticks(50).tickFormat(function (d, i) {
@@ -304,6 +315,40 @@ function barchart(dataset, ydataset, xdataset) {
                 .style("text-anchor", "start");
 
         });
+
+        function setupData(inputdata) {
+            let avg = (parseInt(inputdata[0][0]) +
+                parseInt(inputdata[1][0]) +
+                parseInt(inputdata[2][0]) +
+                parseInt(inputdata[3][0]) +
+                parseInt(inputdata[4][0]))/5;
+            return {
+                name: "2000",
+                average: avg,
+                values: [
+                    {
+                        name: inputdata[4][1],
+                        value: parseInt(inputdata[4][0])
+                    },
+                    {
+                        name: inputdata[3][1],
+                        value: parseInt(inputdata[3][0])
+                    },
+                    {
+                        name: inputdata[2][1],
+                        value: parseInt(inputdata[2][0])
+                    },
+                    {
+                        name: inputdata[1][1],
+                        value: parseInt(inputdata[1][0])
+                    },
+                    {
+                        name: inputdata[0][1],
+                        value: parseInt(inputdata[0][0])
+                    }
+                ]
+            }
+        }
 }
 
 export default barchart;
