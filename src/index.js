@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const sortRadio = document.querySelector('input[type=radio]');
     sortRadio.addEventListener("click", () => {
-            if (sortRadio.value === "state") {
+            if (sortRadio.value === "state" || sortRadio.checked === true) {
                 yearDisplayArr[0].innerHTML = yearSelect.value;
                 const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
                 barchart(filteredData.map(item => [item.medianincome, item.state]),
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let year = "1984";
     let interval = null;
     playButton.addEventListener("click", () => {
-        document.querySelector('input[type=radio]').value = "state";
+        document.querySelector('input[type=radio]').checked = "state";
         if (playButton.innerText === "Play") {
             playButton.innerText = "Pause";
             if( year < 2015 ) {
@@ -98,4 +98,5 @@ document.addEventListener('DOMContentLoaded', () => {
             year = "1984";
         }
     }
+
 })

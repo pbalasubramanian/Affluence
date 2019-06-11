@@ -2,8 +2,8 @@ import * as d3 from 'd3';
 
 function piechart(selectedYear, inputdata) {
 
-    const width = 400;
-    const height = 450;
+    const width = 370;
+    const height = 300;
 
     d3.select('.pie-chart-area').selectAll('path').remove();
     d3.select('.pie-chart-area').selectAll('text').remove();
@@ -90,9 +90,10 @@ function piechart(selectedYear, inputdata) {
             path.enter().append("text")
                 .attr("transform", function (d) {
                     let [x,y] = arc1.centroid(d);
-                    return "translate(" + [x-16,y] + ")";
+                    return "translate(" + [x-10,y] + ")";
                 })
                 .attr("text-anchor", "start")
+                .attr("font-size", "11px")
                 .text(function (d) { return d.data.value; });
 
             svg.select(".averageLine").transition().duration(200)

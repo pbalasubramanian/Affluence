@@ -23,7 +23,8 @@ body h1 {
 
 #play-button {
 	/* background-color: #CB793A; */
-	margin-left: 200px;
+	/* margin-left: 200px; */
+	margin-left: 20%;
 	margin-top: 20px;
 	margin-bottom: 20px;
     width: 100px;
@@ -44,7 +45,9 @@ body h1 {
 } */
 
 .bar-chart {
-	width: 1100px;
+	/* width: 1100px;
+	height: 670px; */
+	width: 650px;
 	height: 670px;
 	padding: -10px;
 	padding-right: 40px;
@@ -52,7 +55,8 @@ body h1 {
 
 .yearSlider {
 	width: 40%;
-	margin-left: 200px;
+	/* margin-left: 200px; */
+	margin-left: 20%;
 }
 
 input[name=yearSelect] {
@@ -87,8 +91,9 @@ input[name=yearSelect] {
 .pie-chart-area {
       /* margin:auto; */
 	  /* display:inherit; */
-	  width: 400px;
-	  height: 450px;
+	  /* width: 400px; */
+	  width: 300px;
+	  height: 250px;
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {

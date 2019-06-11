@@ -9,8 +9,18 @@ function barchart(dataset, ydataset, xdataset) {
     d3.select('.bar-chart').selectAll('g').remove();
     d3.select('.bar-chart').selectAll('text').remove();
 
-    var svgWidth = 1000, svgHeight = 600, barPadding = 5;
+    // var svgWidth = 1000, svgHeight = 600, barPadding = 5;
+    var svgWidth = 550, svgHeight = 600, barPadding = 3;
     var barWidth = ((svgWidth-50) / ydataset.length);
+
+    var aspect = svgWidth / svgHeight,
+        chart = d3.select('.bar-chart');
+    d3.select(window)
+        .on("resize", function () {
+            var targetWidth = chart.node().getBoundingClientRect().width;
+            chart.attr("width", targetWidth);
+            chart.attr("height", targetWidth / aspect);
+        });
 
     // console.log(ydataset.length);
     // console.log(barWidth);
@@ -30,7 +40,8 @@ function barchart(dataset, ydataset, xdataset) {
     // console.log(xdataset);
     var xScale = d3.scaleLinear()
         .domain([0, 50])
-        .range([47, svgWidth]);
+        .range([45, svgWidth-5]);
+        // .range([47, svgWidth]);
 
 
     // var xScale = d3.scale.ordinal().
@@ -71,7 +82,7 @@ function barchart(dataset, ydataset, xdataset) {
         .attr("transform", function (d, i) {
             // console.log(barWidth * i);
             // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
-            return "rotate(45)";
+            return "rotate(65)";
         })
         .attr("x", 5)
         .attr("y", 0)
@@ -104,7 +115,9 @@ function barchart(dataset, ydataset, xdataset) {
 
     svg.append("text")
         .attr("text-anchor", "end")
-        .attr("x", svgHeight - 50)
+        // .attr("x", svgHeight - 50)
+        // .attr("y", svgHeight + 70)
+        .attr("x", svgHeight - 300)
         .attr("y", svgHeight + 70)
         .attr("font-size", "16px")
         .text("States");
@@ -130,7 +143,8 @@ function barchart(dataset, ydataset, xdataset) {
         })
         .attr("width", barWidth - barPadding)
         .attr("transform", function (d, i) {
-            var translate = [82 + barWidth * i, -10];
+            // var translate = [82 + barWidth * i, -10];
+            var translate = [82 + (barWidth * i), -10];
             return "translate(" + translate + ")";
         })
         .attr("fill", "blue")
@@ -138,8 +152,9 @@ function barchart(dataset, ydataset, xdataset) {
         .on("mouseout", function () { tooltip.style("display", "none"); })
         .on("mousemove", function (d, i) {
 
-            var xPosition = d3.mouse(this)[0] - 15 + 82 + barWidth * i;
-            var yPosition = d3.mouse(this)[1] - 45;
+            // var xPosition = d3.mouse(this)[0] - 15 + 82 + barWidth * i;
+            var xPosition = d3.mouse(this)[0] - 55 + 82 + barWidth * i;
+            var yPosition = d3.mouse(this)[1] + 5;
             // var xPosition = d3.mouse(this)[0];
             // var yPosition = d3.mouse(this)[1];
             // console.log(xPosition);
@@ -196,7 +211,7 @@ function barchart(dataset, ydataset, xdataset) {
     d3.select("#sortAscending")
         .on("click", function () {
 
-            d3.select('.bar-chart').selectAll('text.tooltip').remove();
+            d3.select('.bar-chart').selectAll('.tooltip').remove();
 
             let newdata = [];
             let fiveData = [];
@@ -214,12 +229,14 @@ function barchart(dataset, ydataset, xdataset) {
                         newdata.push(d[1]);
                         if(fiveData.length !== 5) fiveData.push(d);
                     }
+
                     // console.log(dataset[i]);
-                    let xVal = xScale(i) + 35;
+                    // let xVal = xScale(i) + 35;
+                    let xVal = xScale(i) + 37;
                     // console.log("xVal==" + xVal);
                     return "translate(" + xVal + ",-10)";
                 });
-                
+
             // console.log(fiveData);
             piechart("", setupData(fiveData));
             d3.select('.bar-chart').selectAll('text.xaxis-class').remove();
@@ -246,7 +263,7 @@ function barchart(dataset, ydataset, xdataset) {
                 .attr("transform", function (d, i) {
                     // console.log(barWidth * i);
                     // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
-                    return "rotate(45)";
+                    return "rotate(65)";
                 })
                 .attr("x", 5)
                 .attr("y", 0)
@@ -257,7 +274,7 @@ function barchart(dataset, ydataset, xdataset) {
     d3.select("#sortDescending")
         .on("click", function () {
 
-            d3.select('.bar-chart').selectAll('text.tooltip').remove();
+            d3.select('.bar-chart').selectAll('.tooltip').remove();
 
             let newdata = [];
             let fiveData = [];
@@ -278,7 +295,8 @@ function barchart(dataset, ydataset, xdataset) {
                         if (fiveData.length !== 5) fiveData.push(d);
                     }
                     // console.log(dataset[i]);
-                    let xVal = xScale(i) + 35;
+                    // let xVal = xScale(i) + 35;
+                    let xVal = xScale(i) + 37;
                     // console.log("xVal==" + xVal);
                     return "translate(" + xVal + ",-10)";
                 });
@@ -308,7 +326,7 @@ function barchart(dataset, ydataset, xdataset) {
                 .attr("transform", function (d, i) {
                     // console.log(barWidth * i);
                     // return "translate(" + ((i) + 0) + "), " + "rotate(-45)";
-                    return "rotate(45)";
+                    return "rotate(65)";
                 })
                 .attr("x", 5)
                 .attr("y", 0)
@@ -317,11 +335,11 @@ function barchart(dataset, ydataset, xdataset) {
         });
 
         function setupData(inputdata) {
-            let avg = (parseInt(inputdata[0][0]) +
+            let avg = Math.floor((parseInt(inputdata[0][0]) +
                 parseInt(inputdata[1][0]) +
                 parseInt(inputdata[2][0]) +
                 parseInt(inputdata[3][0]) +
-                parseInt(inputdata[4][0]))/5;
+                parseInt(inputdata[4][0]))/5);
             return {
                 name: "2000",
                 average: avg,
