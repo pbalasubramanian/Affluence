@@ -154,6 +154,7 @@ function barchart(dataset, ydataset, xdataset) {
 
             // var xPosition = d3.mouse(this)[0] - 15 + 82 + barWidth * i;
             var xPosition = d3.mouse(this)[0] - 55 + 82 + barWidth * i;
+            // xPosition = d3.event.pageY - 55 + 82 + barWidth * i;
             var yPosition = d3.mouse(this)[1] + 5;
             // var xPosition = d3.mouse(this)[0];
             // var yPosition = d3.mouse(this)[1];
