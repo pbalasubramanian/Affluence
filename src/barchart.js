@@ -187,7 +187,6 @@ function barchart(dataset, ydataset, xdataset) {
             // alert("drawing pie chart");
         });
 
-
     var tooltip = svg.append("g")
         .attr("class", "tooltip")
         .style("display", "none");

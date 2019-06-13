@@ -85,8 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const filteredData = allData.filter((item) => item.year === year).slice(1);
         barchart(filteredData.map(item => [item.medianincome, item.state]),
             filteredData.map(item => item.medianincome),
-            filteredData.map(item => item.state))
-        piechart(year);
+            filteredData.map(item => item.state));
+
+        //piechart(year);
+        // document.getElementById('sortAscending').click();
         if( year < 2015 ) {
             let intyear = parseInt(year);
             intyear = intyear + 1;
