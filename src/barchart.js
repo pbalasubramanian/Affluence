@@ -10,7 +10,7 @@ function barchart(dataset, ydataset, xdataset) {
     d3.select('.bar-chart').selectAll('text').remove();
 
     // var svgWidth = 1000, svgHeight = 600, barPadding = 5;
-    var svgWidth = 550, svgHeight = 600, barPadding = 3;
+    var svgWidth = 550, svgHeight = 350, barPadding = 3;
     var barWidth = ((svgWidth-50) / ydataset.length);
 
     var aspect = svgWidth / svgHeight,
@@ -60,19 +60,34 @@ function barchart(dataset, ydataset, xdataset) {
 
     var y_axis = d3.axisLeft().scale(yScale);
 
+    // gridlines in y axis function
+    function make_y_gridlines() {
+        return d3.axisLeft(yScale)
+            .ticks(10);
+    }
+
     svg.append("g")
-        .attr("transform", "translate(80, 0)")
-        .call(y_axis);
+        .attr("transform", "translate(80, 10)")
+        // .call(y_axis);
+        .attr('class', 'grid')
+        .call(make_y_gridlines()
+            .tickSize(-svgWidth+50)
+            .tickSizeOuter(3)
+            // .tickFormat("")
+        )
+
+    // svg.append("g")
+    //     .call(y_axis);
 
     svg.append("text")
         .attr("text-anchor", "end")
         .attr("transform", "rotate(-90)")
         .attr("y", 20)
-        .attr("x", -200)
+        .attr("x", -100)
         .attr("font-size", "16px")
         .text("Median household income")
 
-    var xAxisTranslate = svgHeight - 10;
+    var xAxisTranslate = svgHeight + 10;
 
     svg.append("g")
         .attr("transform", "translate(40, " + xAxisTranslate + ")")
@@ -117,8 +132,8 @@ function barchart(dataset, ydataset, xdataset) {
         .attr("text-anchor", "end")
         // .attr("x", svgHeight - 50)
         // .attr("y", svgHeight + 70)
-        .attr("x", svgHeight - 300)
-        .attr("y", svgHeight + 70)
+        .attr("x", svgHeight + 20)
+        .attr("y", svgHeight + 100)
         .attr("font-size", "16px")
         .text("States");
 
@@ -144,7 +159,7 @@ function barchart(dataset, ydataset, xdataset) {
         .attr("width", barWidth - barPadding)
         .attr("transform", function (d, i) {
             // var translate = [82 + barWidth * i, -10];
-            var translate = [82 + (barWidth * i), -10];
+            var translate = [82 + (barWidth * i), 10];
             return "translate(" + translate + ")";
         })
         .attr("fill", "blue")
@@ -235,7 +250,7 @@ function barchart(dataset, ydataset, xdataset) {
                     // let xVal = xScale(i) + 35;
                     let xVal = xScale(i) + 37;
                     // console.log("xVal==" + xVal);
-                    return "translate(" + xVal + ",-10)";
+                    return "translate(" + xVal + ", 10)";
                 });
 
             // console.log(fiveData);
@@ -299,7 +314,7 @@ function barchart(dataset, ydataset, xdataset) {
                     // let xVal = xScale(i) + 35;
                     let xVal = xScale(i) + 37;
                     // console.log("xVal==" + xVal);
-                    return "translate(" + xVal + ",-10)";
+                    return "translate(" + xVal + ", 10)";
                 });
 
             d3.select('.bar-chart').selectAll('text.xaxis-class').remove();

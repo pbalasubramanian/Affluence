@@ -2,8 +2,12 @@ import * as d3 from 'd3';
 
 function piechart(selectedYear, inputdata) {
 
-    const width = 370;
+    let width = 370;
     const height = 300;
+
+    if (inputdata !== undefined) {
+        width = 300;
+    }
 
     d3.select('.pie-chart-area').selectAll('path').remove();
     d3.select('.pie-chart-area').selectAll('text').remove();
