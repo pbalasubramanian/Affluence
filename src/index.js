@@ -35,13 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // debugger
     
     yearSelect.addEventListener("change", () => {
-            document.querySelector('input[type=radio]').checked = "state";
+            // document.querySelector('input[type=radio]').checked = "state";
             yearDisplayArr[0].innerHTML = yearSelect.value;
             const filteredData = allData.filter((item) => item.year === yearSelect.value).slice(1);
             barchart(filteredData.map(item => [item.medianincome, item.state]),
                     filteredData.map(item => item.medianincome),
                     filteredData.map(item => item.state))
-            piechart(yearSelect.value);
+
+            if( document.getElementById('sortAscending').checked ) {
+                document.getElementById('sortAscending').click();
+            } else if (document.getElementById('sortDescending').checked) {
+                document.getElementById('sortDescending').click();
+            } else {
+                piechart(yearSelect.value);
+            }
         }
     );
 
@@ -85,9 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const filteredData = allData.filter((item) => item.year === year).slice(1);
         barchart(filteredData.map(item => [item.medianincome, item.state]),
             filteredData.map(item => item.medianincome),
-            filteredData.map(item => item.state));
+            filteredData.map(item => item.state))
+            
 
-        //piechart(year);
+        piechart(year);
         // document.getElementById('sortAscending').click();
         if( year < 2015 ) {
             let intyear = parseInt(year);

@@ -170,7 +170,7 @@ function barchart(dataset, ydataset, xdataset) {
             // var xPosition = d3.mouse(this)[0] - 15 + 82 + barWidth * i;
             var xPosition = d3.mouse(this)[0] - 55 + 82 + barWidth * i;
             // xPosition = d3.event.pageY - 55 + 82 + barWidth * i;
-            var yPosition = d3.mouse(this)[1] + 5;
+            var yPosition = d3.mouse(this)[1] + 25;
             // var xPosition = d3.mouse(this)[0];
             // var yPosition = d3.mouse(this)[1];
             // console.log(xPosition);
@@ -230,6 +230,7 @@ function barchart(dataset, ydataset, xdataset) {
 
             let newdata = [];
             let fiveData = [];
+            let idx = [0, 12, 24, 36, 49];
             barChart.sort(function (a, b) {
                 return d3.ascending(a, b);
             })
@@ -242,7 +243,7 @@ function barchart(dataset, ydataset, xdataset) {
                     // console.log(d);
                     if( d !== undefined ) {
                         newdata.push(d[1]);
-                        if(fiveData.length !== 5) fiveData.push(d);
+                        if(fiveData.length !== 5 && idx.includes(i)) fiveData.push(d);
                     }
 
                     // console.log(dataset[i]);
@@ -293,6 +294,7 @@ function barchart(dataset, ydataset, xdataset) {
 
             let newdata = [];
             let fiveData = [];
+            let idx = [0, 12, 24, 36, 49];
             barChart.sort(function (a, b) {
                 // console.log(a);
                 // console.log(b);
@@ -307,7 +309,7 @@ function barchart(dataset, ydataset, xdataset) {
                     // console.log(d);
                     if (d !== undefined) {
                         newdata.push(d[1]);
-                        if (fiveData.length !== 5) fiveData.push(d);
+                        if (fiveData.length !== 5 && idx.includes(i)) fiveData.push(d);
                     }
                     // console.log(dataset[i]);
                     // let xVal = xScale(i) + 35;

@@ -43,10 +43,11 @@ body h1 {
 	display: flex;
 }
 
-/* .col-md-5 {
+ .col-md-5 {
 	display: flex;
-	height: 0px;
-} */
+	width: 360px;
+	/* height: 0px; */
+}
 
 .bar-chart {
 	/* width: 1100px;
