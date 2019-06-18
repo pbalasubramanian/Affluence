@@ -69,7 +69,7 @@ function piechart(selectedYear, inputdata) {
     d3.csv("data/household-income-brackets.csv", prepareData).then(data => {
         data = data.reverse();
 
-        // console.log(data);
+        //console.log(data);
         const radiusScale = d3.scaleSqrt()
             .domain([0, data[49].values[4].value])
             .range([0, Math.min(width, height) / 2]);
