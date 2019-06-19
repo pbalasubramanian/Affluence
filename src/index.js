@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(interval);
             }
         } else {
-            //alert("pausing");
             playButton.innerText = "Play";
             clearInterval(interval);
             interval = 0;
