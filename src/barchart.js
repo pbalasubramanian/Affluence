@@ -10,6 +10,7 @@ function barchart(dataset, ydataset, xdataset) {
     d3.select('.bar-chart').selectAll('text').remove();
 
     // var svgWidth = 1000, svgHeight = 600, barPadding = 5;
+
     var svgWidth = 550, svgHeight = 350, barPadding = 3;
     var barWidth = ((svgWidth-50) / ydataset.length);
 
@@ -38,6 +39,7 @@ function barchart(dataset, ydataset, xdataset) {
     //     .range([0, svgWidth]);
 
     // console.log(xdataset);
+
     var xScale = d3.scaleLinear()
         .domain([0, 50])
         .range([45, svgWidth-5]);
@@ -47,6 +49,7 @@ function barchart(dataset, ydataset, xdataset) {
     // var xScale = d3.scale.ordinal().
     //     rangeRoundBands([0, svgWidth]);
     // var x_axis = d3.svg.axis().scale(xScale).orient("bottom");
+
 
     var yScale = d3.scaleLinear()
         .domain([0, d3.max(ydataset)])
