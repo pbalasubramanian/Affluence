@@ -69,11 +69,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let year = "1984";
     let interval = null;
     playButton.addEventListener("click", () => {
-        document.querySelector('input[type=radio]').checked = "state";
+        let stime = 400;
+        
+        if ( document.getElementById('sortAscending').checked === true ||
+             document.getElementById('sortDescending').checked == true) {
+            stime = 2000;
+        }
+        
+        // document.querySelector('input[type=radio]').checked = "state";
         if (playButton.innerText === "Play") {
             playButton.innerText = "Pause";
             if( year < 2015 ) {
-                interval = setInterval(step, 400);
+                interval = setInterval(step, stime);
             } else {
                 clearInterval(interval);
             }
@@ -89,12 +96,23 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementsByClassName('yearDisplay')[0].innerHTML = year;
         yearSelect.value = year;
         const filteredData = allData.filter((item) => item.year === year).slice(1);
+
         barchart(filteredData.map(item => [item.medianincome, item.state]),
             filteredData.map(item => item.medianincome),
             filteredData.map(item => item.state))
-            
 
-        piechart(year);
+        // console.log(document.getElementById('sortAscending'));
+        if (document.getElementById('sortAscending').checked === true) {
+            document.getElementById('sortAscending').click();
+        }
+        else if(document.getElementById('sortDescending').checked == true) {
+            document.getElementById('sortDescending').click();
+        } else {
+            document.querySelector('input[type=radio]').checked = "state";
+
+            piechart(year);
+
+        }
         // document.getElementById('sortAscending').click();
         if( year < 2015 ) {
             let intyear = parseInt(year);

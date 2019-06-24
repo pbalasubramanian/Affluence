@@ -239,7 +239,11 @@ function barchart(dataset, ydataset, xdataset) {
             })
                 .transition()
                 .delay(function (d, i) {
-                    return i * 50;  // gives it a smoother effect
+                    if (document.getElementById('sortAscending').checked === true) {
+                        return i * 10;
+                    } else {
+                        return i * 50;  // gives it a smoother effect
+                    }
                 })
                 .duration(1000)
                 .attr("transform", function (d, i) {
@@ -305,7 +309,11 @@ function barchart(dataset, ydataset, xdataset) {
             })
                 .transition()
                 .delay(function (d, i) {
-                    return i * 50;  // gives it a smoother effect
+                    if (document.getElementById('sortDescending').checked == true) {
+                        return i * 10;
+                    } else {
+                        return i * 50;  // gives it a smoother effect
+                    }
                 })
                 .duration(1000)
                 .attr("transform", function (d, i) {
