@@ -94,11 +94,19 @@ function piechart(selectedYear, inputdata) {
             path.enter().append("text")
                 .attr("transform", function (d) {
                     let [x,y] = arc1.centroid(d);
+                    // if (inputdata !== undefined) {
+                    //     return "translate(" + [x-30, y] + ")"; 
+                    // }
                     return "translate(" + [x-10,y] + ")";
                 })
                 .attr("text-anchor", "start")
                 .attr("font-size", "11px")
-                .text(function (d) { return d.data.value; });
+                .text(function (d) { 
+                    // if(inputdata !== undefined) { 
+                    //     return d.data.name; 
+                    // } 
+                    return d.data.value; 
+                });
 
             svg.select(".averageLine").transition().duration(200)
                 .attr("r", radiusScale(data.average));
